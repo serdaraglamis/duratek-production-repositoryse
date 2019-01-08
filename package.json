@@ -27,6 +27,7 @@
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "express-spa": "0.0.2",
+    "formidable": "^1.2.1",
     "handlebars": "^4.0.12",
     "helmet": "^3.15.0",
     "http": "0.0.0",
