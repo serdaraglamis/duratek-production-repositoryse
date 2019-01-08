@@ -42,4 +42,4 @@ app.use('/', routes)
 
 app.use(spa(__dirname + '/www/index.html'))
 
-http.createServer(app).listen(process.env.PORT);
+http.createServer(app).listen(port);
