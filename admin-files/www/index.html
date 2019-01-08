@@ -1,0 +1,84 @@
+<!DOCTYPE html><html dir="ltr" lang="en"><head>
+  <meta charset="utf-8">
+  <title>Anamorfix Admin Panel</title>
+  <meta name="Description" content="Welcome to the Stencil App Starter. You can use this starter to build entire apps all with web components using Stencil!">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <meta name="theme-color" content="#16161d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta http-equiv="x-ua-compatible" content="IE=Edge">
+
+  <meta name="apple-mobile-web-app-title" content="Duratek">
+  <link rel="apple-touch-icon" sizes="180x180" href="/_admin/assets/content/images/base/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/_admin/assets/content/images/base/icons/favicon.png">
+  <!-- Include base CSS (optional) -->
+  <link rel="stylesheet" href="/_admin/assets/external/toast/style.css">
+  <link rel="stylesheet" href="/_admin/assets/external/choices/styles/css/base.css">
+  <link rel="stylesheet" href="/_admin/assets/external/choices/styles/css/choices.min.css">
+
+  <!-- Include Choices CSS -->
+
+<style>
+  .modal-backdrop.fade.show {
+    z-index: 510;
+  }
+  .modal-dialog.user-management {
+    max-width: 1000px !important;
+  }
+
+</style>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/_admin/assets/css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/_admin/assets/css/main.css">
+  <link rel="stylesheet" href="/_admin/assets/external/slim.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/airbnb.css">
+
+
+  <script src="/_admin//build/app.js"></script>
+
+  <link rel="apple-touch-icon" href="/_admin/assets/icon/icon.png">
+  <link rel="icon" type="image/x-icon" href="/_admin/assets/icon/favicon.ico">
+  <link rel="manifest" href="/_admin/manifest.json">
+  <style type="text/css">
+  /*  .slim-btn-upload, .slim-btn-remove {
+      display: none !important;
+    }*/
+    .slim-btn-upload {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+
+  <my-app></my-app>
+
+  <script src="/_admin/assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/_admin/assets/js/bootstrap/bootstrap.min.js"></script>
+  <script src="/_admin/assets/js/sortable.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="/_admin/assets/js/main.js"></script>
+  <script src="https://npmcdn.com/flatpickr/dist/flatpickr.min.js"></script>
+  <script src="https://npmcdn.com/flatpickr/dist/l10n/tr.js"></script>
+
+  <script src="/_admin/assets/js/medium-editor/medium-editor.min.js"></script>
+  <script src="/_admin/assets/js/nestable.js"></script>
+  <script src="/_admin/assets/external/slim.kickstart.js"></script>
+  <script src="/_admin/assets/external/choices/scripts/dist/choices.min.js"></script>
+  <script src="/_admin/assets/external/toast/siiimple-toast.min.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+      // auto-unregister service worker during dev mode
+      navigator.serviceWorker.getRegistration().then(function(registration) {
+        if (registration) {
+          registration.unregister().then(function() { location.reload(true) });
+        }
+      });
+    }
+  </script>
+
+
+
+</body></html>

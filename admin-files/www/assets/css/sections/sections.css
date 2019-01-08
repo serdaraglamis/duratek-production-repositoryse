@@ -1,0 +1,145 @@
+/*	-------------
+	General
+	------------- */
+/*	-------------
+	Colorz
+	------------- */
+/*	-------------
+	Font Families
+	------------- */
+/* shorthand for commonly used scripts */
+/* line 9, ../../../src/scss/_extends.scss */
+.section-detail-item-group-image {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+}
+
+/* line 1, ../../../src/scss/sections/_overview.scss */
+.section-overview {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-gap: 30px;
+  margin-top: 30px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 8, ../../../src/scss/sections/_overview.scss */
+.overview-item {
+  background-color: #F5F5F5;
+}
+
+/* line 1, ../../../src/scss/sections/_products.scss */
+.section-products {
+  display: grid;
+  grid-template-columns: minmax(200px, 300px) minmax(300px, 800px);
+  grid-gap: 30px;
+}
+
+/* line 9, ../../../src/scss/sections/_products.scss */
+.section-products-aside .fix-list-group-item a {
+  display: block;
+}
+
+/* line 12, ../../../src/scss/sections/_products.scss */
+.section-products-body {
+  align-content: center;
+}
+
+/* line 1, ../../../src/scss/sections/_detail.scss */
+.section-detail {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* line 5, ../../../src/scss/sections/_detail.scss */
+.section-detail-header {
+  text-align: center;
+  background-color: #F5F5F5;
+  padding: 15px;
+  border-bottom: 2px solid #CCD1D9;
+  margin-bottom: 30px;
+}
+
+/* line 19, ../../../src/scss/sections/_detail.scss */
+.section-detail-item-group {
+  border-bottom: 1px solid #CCD1D9;
+  padding-bottom: 30px;
+}
+
+/* line 23, ../../../src/scss/sections/_detail.scss */
+.section-detail-item-group:last-child {
+  border-bottom-color: transparent;
+}
+
+/* line 26, ../../../src/scss/sections/_detail.scss */
+.section-detail-item-group + .section-detail-item-group {
+  margin-top: 30px;
+}
+
+/* line 29, ../../../src/scss/sections/_detail.scss */
+.section-detail-item-group-header {
+  text-align: center;
+  padding: 30px 0 60px 0;
+}
+
+/* line 33, ../../../src/scss/sections/_detail.scss */
+.section-detail-item-group > h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+/* line 39, ../../../src/scss/sections/_detail.scss */
+.section-detail-item-group > .form-group {
+  margin-bottom: 30px;
+}
+
+/* line 43, ../../../src/scss/sections/_detail.scss */
+.section-detail-item-group-image {
+  display: block;
+  position: relative;
+  width: 100%;
+  min-height: 240px;
+  max-height: auto;
+  background-color: #EAEBEC;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+/* line 55, ../../../src/scss/sections/_detail.scss */
+.section-detail-item-group-image > img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 61, ../../../src/scss/sections/_detail.scss */
+.section-detail-item-group-image.empty > img {
+  display: none;
+}
+
+/* line 64, ../../../src/scss/sections/_detail.scss */
+.section-detail-item-group-image.empty:before {
+  content: '\e90d';
+  font-family: "fix";
+  font-size: 64px;
+  line-height: 64px;
+  position: absolute;
+  left: calc(50% - 32px);
+  top: calc(50% - 32px);
+  opacity: .3;
+}
+
+/* line 75, ../../../src/scss/sections/_detail.scss */
+.section-detail-footer {
+  padding-top: 30px;
+  border-top: 2px solid #CCD1D9;
+}

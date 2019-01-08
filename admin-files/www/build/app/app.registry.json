@@ -1,0 +1,180 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "global": "app.global.js",
+  "core": "app.core.js",
+  "corePolyfilled": "app.core.pf.js",
+  "components": {
+    "app-add-event": {
+      "bundleIds": {
+        "$": "app-add-event"
+      }
+    },
+    "app-add-location": {
+      "bundleIds": {
+        "$": "app-add-location"
+      }
+    },
+    "app-add-news": {
+      "bundleIds": {
+        "$": "app-add-news"
+      }
+    },
+    "app-add-product": {
+      "bundleIds": {
+        "$": "app-add-product"
+      }
+    },
+    "app-add-project": {
+      "bundleIds": {
+        "$": "app-add-project"
+      }
+    },
+    "app-categories": {
+      "bundleIds": {
+        "$": "app-categories"
+      }
+    },
+    "app-dashboard": {
+      "bundleIds": {
+        "$": "app-dashboard"
+      }
+    },
+    "app-event-detail": {
+      "bundleIds": {
+        "$": "app-event-detail"
+      }
+    },
+    "app-events": {
+      "bundleIds": {
+        "$": "app-events"
+      }
+    },
+    "app-home": {
+      "bundleIds": {
+        "$": "app-home"
+      }
+    },
+    "app-location-detail": {
+      "bundleIds": {
+        "$": "app-location-detail"
+      }
+    },
+    "app-locations": {
+      "bundleIds": {
+        "$": "app-locations"
+      }
+    },
+    "app-login": {
+      "bundleIds": {
+        "$": "app-login"
+      }
+    },
+    "app-navigation": {
+      "bundleIds": {
+        "$": "app-navigation"
+      }
+    },
+    "app-news": {
+      "bundleIds": {
+        "$": "app-news"
+      }
+    },
+    "app-news-detail": {
+      "bundleIds": {
+        "$": "app-news-detail"
+      }
+    },
+    "app-page-component-edit": {
+      "bundleIds": {
+        "$": "app-page-component-edit"
+      }
+    },
+    "app-page-detail": {
+      "bundleIds": {
+        "$": "app-page-detail"
+      }
+    },
+    "app-pages": {
+      "bundleIds": {
+        "$": "app-pages"
+      }
+    },
+    "app-product-detail": {
+      "bundleIds": {
+        "$": "app-product-detail"
+      }
+    },
+    "app-products": {
+      "bundleIds": {
+        "$": "app-products"
+      }
+    },
+    "app-profile": {
+      "bundleIds": {
+        "$": "app-profile"
+      }
+    },
+    "app-project-detail": {
+      "bundleIds": {
+        "$": "app-project-detail"
+      }
+    },
+    "app-projects": {
+      "bundleIds": {
+        "$": "app-projects"
+      }
+    },
+    "app-static-languages": {
+      "bundleIds": {
+        "$": "app-static-languages"
+      }
+    },
+    "app-top-menu": {
+      "bundleIds": {
+        "$": "app-top-menu"
+      }
+    },
+    "app-top-menu-edit": {
+      "bundleIds": {
+        "$": "app-top-menu-edit"
+      }
+    },
+    "my-app": {
+      "bundleIds": {
+        "$": "app-login"
+      }
+    },
+    "new-category-component": {
+      "bundleIds": {
+        "$": "new-category-component"
+      }
+    },
+    "shared-aside": {
+      "bundleIds": {
+        "$": "app-login"
+      }
+    },
+    "shared-header": {
+      "bundleIds": {
+        "$": "app-login"
+      }
+    },
+    "stencil-route": {
+      "bundleIds": {
+        "$": "app-login"
+      }
+    },
+    "stencil-route-link": {
+      "bundleIds": {
+        "$": "stencil-route-link"
+      }
+    },
+    "stencil-router": {
+      "bundleIds": {
+        "$": "app-login"
+      }
+    }
+  }
+}

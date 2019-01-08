@@ -1,0 +1,621 @@
+@charset "UTF-8";
+/*	-------------
+	General
+	------------- */
+/*	-------------
+	Colorz
+	------------- */
+/*	-------------
+	Font Families
+	------------- */
+/* shorthand for commonly used scripts */
+/* line 9, ../../../src/scss/_extends.scss */
+.card-list-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+}
+
+/* line 1, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-group {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+/* line 5, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list .navigation-list {
+  padding-left: 32px;
+}
+
+/* line 16, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-item-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 1px 3px #EAEBEC;
+  -moz-box-shadow: 0px 1px 3px #EAEBEC;
+  -o-box-shadow: 0px 1px 3px #EAEBEC;
+  box-shadow: 0px 1px 3px #EAEBEC;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 29, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-item .navigation-sublist {
+  grid-column: 1 / -1;
+}
+
+/* line 32, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-info {
+  font-size: 15px;
+  line-height: 32px;
+}
+
+/* line 36, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-info > .name {
+  color: #333333;
+}
+
+/* line 39, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-info > .table-name {
+  font-size: 14px;
+  font-weight: 300;
+  color: #AAB2BD;
+  margin-left: 10px;
+}
+
+/* line 45, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-info > .status:before {
+  content: '—';
+  display: inline-block;
+  margin-right: 6px;
+  color: currentColor;
+}
+
+/* line 51, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-info > .status {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+/* line 55, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-info > .status.published {
+  color: #42BD6C;
+}
+
+/* line 58, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-info > .status.draft {
+  color: #FAC825;
+}
+
+/* line 62, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-options {
+  font-size: 0px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 68, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-options > a {
+  font-size: 12px;
+  line-height: 32px;
+  font-weight: 600;
+  padding: 0px 12px;
+  border-color: none;
+  color: #545454;
+  background-color: #F5F5F5;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 78, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-options > a:not(:first-child) {
+  margin-left: 4px;
+}
+
+/* line 81, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-options > a:not(:last-child) {
+  margin-right: 4px;
+}
+
+/* line 84, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-options > .delete {
+  color: #F75252;
+}
+
+/* line 87, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-options > .delete:hover {
+  color: #FFFFFF;
+  background-color: #F75252;
+}
+
+/* line 94, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-options > .edit:hover {
+  color: #FFFFFF;
+  background-color: #242424;
+}
+
+/* line 98, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-options > .holder {
+  background-color: #CCD1D9;
+  font-size: 24px;
+  padding: 4px;
+}
+
+/* line 103, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-options > .holder > span {
+  display: block;
+}
+
+/* line 106, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-options > .holder:hover {
+  color: #FFFFFF;
+  background-color: #242424;
+}
+
+/* line 111, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-item-wrapper:hover {
+  -webkit-box-shadow: 0px 3px 6px #CCD1D9;
+  -moz-box-shadow: 0px 3px 6px #CCD1D9;
+  -o-box-shadow: 0px 3px 6px #CCD1D9;
+  box-shadow: 0px 3px 6px #CCD1D9;
+}
+
+/* line 114, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-item-wrapper:hover .navigation-list-options {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 118, ../../../src/scss/lists/_navigation-list.scss */
+.navigation-list-item-wrapper:hover .name {
+  color: #121212;
+}
+
+/* line 1, ../../../src/scss/lists/_card-list.scss */
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* line 9, ../../../src/scss/lists/_card-list.scss */
+.card-list-item {
+  background-color: #FFFFFF;
+  overflow: hidden;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 18, ../../../src/scss/lists/_card-list.scss */
+.card-list-item-image {
+  position: relative;
+}
+
+/* line 21, ../../../src/scss/lists/_card-list.scss */
+.card-list-item-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  color: #FFFFFF;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  align-content: space-around;
+  justify-content: space-around;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 39, ../../../src/scss/lists/_card-list.scss */
+.card-list-item-image > img {
+  width: 100%;
+}
+
+/* line 43, ../../../src/scss/lists/_card-list.scss */
+.card-list-item-body {
+  padding: 15px;
+}
+
+/* line 46, ../../../src/scss/lists/_card-list.scss */
+.card-list-item-body > h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+
+/* line 52, ../../../src/scss/lists/_card-list.scss */
+.card-list-item-body > p {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 6px 0px;
+  color: #545454;
+}
+
+/* line 59, ../../../src/scss/lists/_card-list.scss */
+.card-list-item:hover {
+  -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* line 62, ../../../src/scss/lists/_card-list.scss */
+.card-list-item:hover .card-list-item-overlay {
+  opacity: 1;
+}
+
+/* line 65, ../../../src/scss/lists/_card-list.scss */
+.card-list-item:hover .card-list-item-body > h3 {
+  color: #0070E0;
+}
+
+/* line 68, ../../../src/scss/lists/_card-list.scss */
+.card-list-item:hover .card-list-item-body > p {
+  color: #0070E0;
+  color: #121212;
+}
+
+/* line 1, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-wrapper {
+  display: block;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+/* line 6, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-header {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: start;
+  padding: 15px 0px;
+}
+
+/* line 12, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-header > h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 600;
+}
+
+/* line 16, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-header-action {
+  padding-left: 30px;
+}
+
+/* line 25, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-item {
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 28, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-item-header {
+  background-color: #EAEBEC;
+  color: #242424;
+  z-index: 2;
+}
+
+/* line 33, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-item-header > * {
+  font-weight: 700;
+}
+
+/* line 36, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-row {
+  align-items: center;
+}
+
+/* line 39, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-row > div {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* line 44, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-row > div.row-number {
+  width: 36px;
+  font-size: 13px;
+  line-height: 24px;
+  opacity: .5;
+}
+
+/* line 50, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-row > div.settings {
+  justify-self: flex-end;
+  text-align: right;
+  opacity: .1;
+}
+
+/* line 55, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-item-header .fix-list-group-row > div.settings {
+  opacity: 1;
+}
+
+/* line 58, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-row > div.settings > a {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 4px;
+}
+
+/* line 64, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-item.active,
+.fix-list-group-item:hover {
+  border-color: #CCD1D9;
+  background-color: #F5F5F5;
+  z-index: 5;
+}
+
+/* line 70, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-item.active a {
+  font-weight: 700;
+}
+
+/* line 73, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-item.active .fix-list-group-row > .row-number {
+  opacity: 1;
+  color: #121212;
+}
+
+/* line 77, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-item:hover .fix-list-group-row > div.settings {
+  opacity: 1;
+}
+
+/* line 83, ../../../src/scss/lists/_fix-list-group.scss */
+.fix-list-group-collapse > ul {
+  padding: 15px 0px;
+}
+
+/* line 4, ../../../src/scss/lists/_form-group-list.scss */
+.form-group-list-item {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+/* line 8, ../../../src/scss/lists/_form-group-list.scss */
+.form-group-list-item > .holder {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 0px;
+}
+
+/* line 16, ../../../src/scss/lists/_form-group-list.scss */
+.form-group-list-item > .delete {
+  position: absolute;
+  right: 36px;
+  top: 0;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0px 8px;
+}
+
+/* line 1, ../../../src/scss/lists/_content-list.scss */
+.content-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
+  grid-gap: 15px;
+  align-content: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  padding: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #EAEBEC;
+}
+
+/* line 15, ../../../src/scss/lists/_content-list.scss */
+.content-list-item {
+  text-align: center;
+}
+
+/* line 18, ../../../src/scss/lists/_content-list.scss */
+.content-list-item > a {
+  display: block;
+  padding: 15px 7.5px;
+  background-color: #EAEBEC;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 30, ../../../src/scss/lists/_content-list.scss */
+.content-list-item > a:hover {
+  color: #FFFFFF;
+  background-color: #0070E0;
+}
+
+/* line 4, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 10, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item {
+  position: relative;
+  padding: 15px;
+}
+
+/* line 14, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item-options {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32px, 1fr));
+  align-content: center;
+  justify-content: center;
+  grid-gap: 15px;
+  padding: 15px;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 29, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item:hover .gallery-list-item-options {
+  opacity: 1;
+}
+
+/* line 35, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item-options > a.holder {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 2px;
+}
+
+/* line 40, ../../../src/scss/lists/_gallery-list.scss */
+.empty .gallery-list-item-options > a.holder {
+  display: none;
+}
+
+/* line 46, ../../../src/scss/lists/_gallery-list.scss */
+.empty .gallery-list-item-options > a.delete {
+  display: none;
+}
+
+/* line 49, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item-options > a.add {
+  display: none;
+}
+
+/* line 52, ../../../src/scss/lists/_gallery-list.scss */
+.empty .gallery-list-item-options > a.add {
+  display: block;
+}
+
+/* line 55, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item-image {
+  display: block;
+  position: relative;
+  background-color: #CCD1D9;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  -webkit-border-radius: 3px 3px 0px 0px;
+  -moz-border-radius: 3px 3px 0px 0px;
+  -o-border-radius: 3px 3px 0px 0px;
+  border-radius: 3px 3px 0px 0px;
+}
+
+/* line 65, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 70, ../../../src/scss/lists/_gallery-list.scss */
+.empty > .gallery-list-item-image > img {
+  display: none;
+}
+
+/* line 73, ../../../src/scss/lists/_gallery-list.scss */
+.empty > .gallery-list-item-image:before {
+  content: '\e90d';
+  font-family: "fix";
+  font-size: 64px;
+  line-height: 64px;
+  position: absolute;
+  left: calc(50% - 32px);
+  top: calc(50% - 32px);
+  opacity: .3;
+}
+
+/* line 83, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item-caption {
+  display: block;
+  width: 100%;
+}
+
+/* line 87, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item-caption > input {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  -webkit-border-radius: 0px 0px 3px 3px;
+  -moz-border-radius: 0px 0px 3px 3px;
+  -o-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px;
+}
+
+/* line 93, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item-caption > input:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 96, ../../../src/scss/lists/_gallery-list.scss */
+.gallery-list-item-file-selector {
+  display: none;
+}
