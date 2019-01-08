@@ -1,0 +1,583 @@
+/*	-------------
+	General
+	------------- */
+/*	-------------
+	Colorz
+	------------- */
+/* 	Gray */
+/*	-------------
+	Font Families
+	------------- */
+/* shorthand for commonly used scripts */
+/* line 9, ../../scss/_extends.scss */
+.list-160-item > .image, .list-310-item-image, .list-400-item-image {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+}
+
+/* line 2, ../../scss/lists/_list-default.scss */
+.list-circle {
+  display: block;
+  position: relative;
+  list-style-type: none;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+/* line 9, ../../scss/lists/_list-default.scss */
+.list-circle > li {
+  margin-bottom: 12px;
+}
+
+/* line 13, ../../scss/lists/_list-default.scss */
+.list-circle > li:before {
+  font-family: 'duratek' !important;
+  content: "\e902";
+  display: inline-block;
+  font-size: 24px;
+  line-height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+  color: #FCBE57;
+}
+
+/* .list-160 */
+/* line 2, ../../scss/lists/_list-160.scss */
+.list-160 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+
+/* line 7, ../../scss/lists/_list-160.scss */
+.list-160-item {
+  display: block;
+  padding-bottom: 12px;
+}
+
+/* line 11, ../../scss/lists/_list-160.scss */
+.list-160-item > .image {
+  overflow: hidden;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+
+/* line 17, ../../scss/lists/_list-160.scss */
+.list-160-item > .image > img {
+  width: 100%;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  z-index: -10;
+}
+
+/* line 22, ../../scss/lists/_list-160.scss */
+.list-160-item > h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  -webkit-transition: color 0.15s ease-in-out;
+  -moz-transition: color 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+/* line 28, ../../scss/lists/_list-160.scss */
+.list-160-item:hover .image > img {
+  transform: scale(1.1);
+}
+
+/* line 31, ../../scss/lists/_list-160.scss */
+.list-160-item:hover h4 {
+  color: #0054A5;
+}
+
+@media (max-width: 767px) {
+  /* line 42, ../../scss/lists/_list-160.scss */
+  .list-160 {
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+  }
+
+  /* line 46, ../../scss/lists/_list-160.scss */
+  .list-160-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    padding-bottom: 0px;
+    align-items: center;
+  }
+
+  /* line 53, ../../scss/lists/_list-160.scss */
+  .list-160-item > .image {
+    margin-bottom: 0px;
+  }
+
+  /* line 56, ../../scss/lists/_list-160.scss */
+  .list-160-item > h4 {
+    grid-column: 2 / -1;
+  }
+}
+/* .list-310 */
+/* line 2, ../../scss/lists/_list-310.scss */
+.list-310 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 48px;
+  padding-bottom: 96px;
+}
+
+/* line 9, ../../scss/lists/_list-310.scss */
+.list-310-item:nth-child(1),
+.list-310-item:nth-child(2) {
+  grid-column: auto / span 3;
+}
+
+/* line 13, ../../scss/lists/_list-310.scss */
+.list-310-item {
+  grid-column: auto / span 2;
+}
+
+/* line 16, ../../scss/lists/_list-310.scss */
+.list-310-item-image {
+  background-color: #191D21;
+  overflow: hidden;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 22, ../../scss/lists/_list-310.scss */
+.list-310-item-image > img {
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 26, ../../scss/lists/_list-310.scss */
+.list-310-item-text {
+  margin-top: 16px;
+}
+
+/* line 29, ../../scss/lists/_list-310.scss */
+.list-310-item-text > h3 {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+  -webkit-transition: color 0.15s ease-in-out;
+  -moz-transition: color 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+/* line 36, ../../scss/lists/_list-310.scss */
+.list-310-item:nth-child(1) .list-310-item-text > h3,
+.list-310-item:nth-child(2) .list-310-item-text > h3 {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+
+/* line 43, ../../scss/lists/_list-310.scss */
+.list-310-item:hover .list-310-item-image > img {
+  transform: scale(1.1);
+  opacity: .6;
+}
+
+/* line 47, ../../scss/lists/_list-310.scss */
+.list-310-item:hover .list-310-item-text > h3 {
+  color: #0054A5;
+}
+
+@media (max-width: 767px) {
+  /* line 57, ../../scss/lists/_list-310.scss */
+  .list-310-item:nth-child(1),
+  .list-310-item:nth-child(2),
+  .list-310-item {
+    grid-column: auto / span 3;
+  }
+}
+/* .list-400 */
+/* line 2, ../../scss/lists/_list-400.scss */
+.list-400 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 48px;
+  padding-bottom: 96px;
+}
+
+/* line 9, ../../scss/lists/_list-400.scss */
+.list-400-item:nth-child(1) {
+  grid-column: auto / span 3;
+}
+
+/* line 12, ../../scss/lists/_list-400.scss */
+.list-400-item {
+  grid-column: auto / span 2;
+}
+
+/* line 15, ../../scss/lists/_list-400.scss */
+.list-400-item-image {
+  overflow: hidden;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 20, ../../scss/lists/_list-400.scss */
+.list-400-item-image > img {
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 24, ../../scss/lists/_list-400.scss */
+.list-400-item-text {
+  margin-top: 16px;
+}
+
+/* line 27, ../../scss/lists/_list-400.scss */
+.list-400-item-text > h3 {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+  -webkit-transition: color 0.15s ease-in-out;
+  -moz-transition: color 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+/* line 34, ../../scss/lists/_list-400.scss */
+.list-400-item:nth-child(1) .list-400-item-text > h3 {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+
+/* line 40, ../../scss/lists/_list-400.scss */
+.list-400-item:hover .list-400-item-image > img {
+  transform: scale(1.1);
+}
+
+/* line 43, ../../scss/lists/_list-400.scss */
+.list-400-item:hover .list-400-item-text > h3 {
+  color: #0054A5;
+}
+
+@media (max-width: 767px) {
+  /* line 53, ../../scss/lists/_list-400.scss */
+  .list-400 {
+    grid-row-gap: 24px;
+  }
+
+  /* line 56, ../../scss/lists/_list-400.scss */
+  .list-400-item,
+  .list-400-item:first-child {
+    grid-column: auto / span 6;
+  }
+
+  /* line 60, ../../scss/lists/_list-400.scss */
+  .list-400-item {
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-column-gap: 5%;
+    align-items: center;
+  }
+
+  /* line 66, ../../scss/lists/_list-400.scss */
+  .list-400-item:first-child {
+    display: block;
+  }
+
+  /* line 69, ../../scss/lists/_list-400.scss */
+  .list-400-item:not(:first-child) .list-400-item-text {
+    margin-top: 0px;
+  }
+}
+/* line 3, ../../scss/lists/_list-520.scss */
+.list-520 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 9, ../../scss/lists/_list-520.scss */
+.list-520-container {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 512px;
+  overflow: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 19, ../../scss/lists/_list-520.scss */
+.list-520-item {
+  border-bottom: none;
+  width: 100%;
+  display: block;
+}
+
+/* line 24, ../../scss/lists/_list-520.scss */
+.list-520-item:last-child {
+  padding-bottom: 24px;
+}
+
+/* line 27, ../../scss/lists/_list-520.scss */
+.list-520-item.active {
+  background-color: #EFECE5;
+  border-bottom: 1px solid #DCD8CE;
+}
+
+/* line 31, ../../scss/lists/_list-520.scss */
+.list-520-item-header {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #DCD8CE;
+}
+
+/* line 36, ../../scss/lists/_list-520.scss */
+.list-520-item:last-child .list-520-item-header {
+  border-bottom: none;
+}
+
+/* line 39, ../../scss/lists/_list-520.scss */
+.list-520-item.active .list-520-item-header {
+  border-bottom-color: transparent;
+}
+
+/* line 42, ../../scss/lists/_list-520.scss */
+.list-520-item-header > a {
+  font-family: "Cerebri Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: block;
+  width: 100%;
+  padding: 20px 24px 12px 24px;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 49, ../../scss/lists/_list-520.scss */
+.list-520-item-header > a:hover {
+  background-color: #EFECE5;
+}
+
+/* line 52, ../../scss/lists/_list-520.scss */
+.list-520-item-header > a > .title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 4px;
+  color: #868070;
+  display: block;
+}
+
+/* line 60, ../../scss/lists/_list-520.scss */
+.list-520-item-header > a > .name {
+  display: block;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #191D21;
+}
+
+/* line 68, ../../scss/lists/_list-520.scss */
+.list-520-item-body {
+  display: none;
+  font-size: 15px;
+  line-height: 22px;
+  color: #323A42;
+  padding: 16px 24px 24px 24px;
+}
+
+/* line 75, ../../scss/lists/_list-520.scss */
+.list-520-item.active .list-520-item-body {
+  display: block;
+}
+
+/* line 78, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .coordinates {
+  display: inline-block;
+  font-size: 0px;
+}
+
+/* line 82, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .coordinates > .north,
+.list-520-item-body > .coordinates > .west {
+  display: inline-block;
+  font-family: "Cerebri Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #868070;
+}
+
+/* line 93, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .coordinates > .north {
+  margin-right: 12px;
+}
+
+/* line 99, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .coordinates > .north > span,
+.list-520-item-body > .coordinates > .west > span {
+  display: inline-block;
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+/* line 105, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .coordinates:hover > .north,
+.list-520-item-body > .coordinates:hover > .west {
+  color: #0054A5;
+}
+
+/* line 109, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .address {
+  display: block;
+  padding-bottom: 16px;
+}
+
+/* line 113, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* line 119, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .info > .title {
+  grid-column: auto / span 1;
+  font-weight: 700;
+  color: #868070;
+}
+
+/* line 124, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .info > .value {
+  grid-column: auto / span 3;
+  justify-self: start;
+}
+
+/* line 128, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .info > a.value {
+  color: #0054A5;
+  -webkit-transition: color 0.15s ease-in-out;
+  -moz-transition: color 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+/* line 132, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .info > a.value:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: 1px;
+  width: 100%;
+  height: 1px;
+  background-color: transparent;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  -moz-transition: background-color 0.15s ease-in-out;
+  -o-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+
+/* line 143, ../../scss/lists/_list-520.scss */
+.list-520-item-body > .info > a.value:hover:after {
+  background-color: currentColor;
+}
+
+/* line 3, ../../scss/lists/_list-670.scss */
+.list-670 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 9, ../../scss/lists/_list-670.scss */
+.list-670-item {
+  display: block;
+  width: 100%;
+}
+
+/* line 13, ../../scss/lists/_list-670.scss */
+.list-670-item > a {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 16px 0px;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 20, ../../scss/lists/_list-670.scss */
+.list-670-item:not(:last-child) > a {
+  border-bottom: 1px solid #3376B7;
+}
+
+/* line 23, ../../scss/lists/_list-670.scss */
+.list-670-item > a > h4 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 31, ../../scss/lists/_list-670.scss */
+.list-670-item > a > span {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #99BADB;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 38, ../../scss/lists/_list-670.scss */
+.list-670-item > a:hover {
+  background-color: #0054A5;
+}
+
+/* line 41, ../../scss/lists/_list-670.scss */
+.list-670-item > a:hover h4 {
+  margin-left: 6px;
+  margin-right: -6px;
+}
+
+/* line 45, ../../scss/lists/_list-670.scss */
+.list-670-item > a:hover span {
+  color: #FFFFFF;
+  margin-left: 6px;
+  margin-right: -6px;
+}

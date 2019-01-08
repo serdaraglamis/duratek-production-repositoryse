@@ -1,0 +1,154 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "core": "app.kpjxpl6k.js",
+  "corePolyfilled": "app.uwmkkdjt.js",
+  "components": {
+    "career-component": {
+      "bundleIds": {
+        "$": "euppqyex"
+      }
+    },
+    "cerez-component": {
+      "bundleIds": {
+        "$": "akmbyxqo"
+      }
+    },
+    "duyuru-component": {
+      "bundleIds": {
+        "$": "akmbyxqo"
+      }
+    },
+    "iletisim-statik": {
+      "bundleIds": {
+        "$": "rgqfcqod"
+      }
+    },
+    "module-10": {
+      "bundleIds": {
+        "$": "9hdraqgk"
+      }
+    },
+    "module-100": {
+      "bundleIds": {
+        "$": "xaelsgrc"
+      }
+    },
+    "module-150": {
+      "bundleIds": {
+        "$": "pfoh7hy2"
+      }
+    },
+    "module-160": {
+      "bundleIds": {
+        "$": "zfgkziql"
+      }
+    },
+    "module-20": {
+      "bundleIds": {
+        "$": "oxtne0my"
+      }
+    },
+    "module-300": {
+      "bundleIds": {
+        "$": "oyw6xyoc"
+      }
+    },
+    "module-310": {
+      "bundleIds": {
+        "$": "vg9fxppl"
+      }
+    },
+    "module-440": {
+      "bundleIds": {
+        "$": "8vtuppqd"
+      }
+    },
+    "module-440-event": {
+      "bundleIds": {
+        "$": "nvdszlgp"
+      }
+    },
+    "module-450": {
+      "bundleIds": {
+        "$": "qxvq11a2"
+      }
+    },
+    "module-460": {
+      "bundleIds": {
+        "$": "dtknjkwo"
+      }
+    },
+    "module-50": {
+      "bundleIds": {
+        "$": "n9gzljvj"
+      }
+    },
+    "module-610": {
+      "bundleIds": {
+        "$": "iqajpqmb"
+      }
+    },
+    "module-620": {
+      "bundleIds": {
+        "$": "a0bicwpq"
+      }
+    },
+    "module-650": {
+      "bundleIds": {
+        "$": "y7ts18d5"
+      }
+    },
+    "module-660": {
+      "bundleIds": {
+        "$": "hijua9h4"
+      }
+    },
+    "module-720": {
+      "bundleIds": {
+        "$": "kbbvhzsq"
+      }
+    },
+    "module-800": {
+      "bundleIds": {
+        "$": "v1lvk3ob"
+      }
+    },
+    "module-802": {
+      "bundleIds": {
+        "$": "gqiypeya"
+      }
+    },
+    "module-810": {
+      "bundleIds": {
+        "$": "nhev08sv"
+      }
+    },
+    "module-900": {
+      "bundleIds": {
+        "$": "v0y6hyr7"
+      }
+    },
+    "my-app": {
+      "bundleIds": {
+        "$": "akmbyxqo"
+      }
+    },
+    "static-text": {
+      "bundleIds": {
+        "$": "hkrl37z5"
+      }
+    },
+    "urunler-page": {
+      "bundleIds": {
+        "$": "u6vtachp"
+      }
+    },
+    "urunler-page-new": {
+      "bundleIds": {
+        "$": "wzlayg92"
+      }
+    }
+  }
+}
