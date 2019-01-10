@@ -1,5 +1,4 @@
-/*! Built with http://stenciljs.com */
-App.loadBundle('app-pages', ['exports', './chunk-ac6932ea.js'], function (exports, __chunk_1) {
+App.loadBundle('app-pages', ['exports', './chunk-f83566b1.js'], function (exports, __chunk_1) {
     var h = window.App.h;
     var appPages = /** @class */ (function () {
         function appPages() {

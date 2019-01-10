@@ -1,8 +1,8 @@
-/*! Built with http://stenciljs.com */
-const { h } = window.App;
+const h = window.App.h;
 
-import { d as deleteFromPath, b as getFromPath, a as postDataFromPath, c as updateFromPath } from './chunk-1931ffef.js';
-import { a as cloneDeep } from './chunk-b1f9a1ed.js';
+import { b as getFromPath, c as updateFromPath, a as postDataFromPath, d as deleteFromPath } from './chunk-cc9391f5.js';
+import './chunk-84ac4f31.js';
+import { a as cloneDeep } from './chunk-597c4635.js';
 
 class appCategories {
     constructor() {

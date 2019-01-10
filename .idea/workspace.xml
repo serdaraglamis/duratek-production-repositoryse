@@ -3,6 +3,167 @@
   <component name="ChangeListManager">
     <list default="true" id="41d23228-36dc-4e2f-a9fa-4ba24e3db3ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-event.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-event.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-event.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-event.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-event.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-event.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-event.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-event.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-location.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-location.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-location.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-location.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-location.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-location.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-location.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-location.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-news.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-news.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-news.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-news.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-news.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-news.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-news.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-news.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-product.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-product.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-product.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-product.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-product.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-product.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-product.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-product.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-project.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-project.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-project.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-project.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-project.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-project.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-add-project.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-add-project.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-categories.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-categories.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-categories.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-categories.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-categories.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-categories.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-categories.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-categories.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-dashboard.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-dashboard.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-dashboard.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-dashboard.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-dashboard.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-dashboard.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-dashboard.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-dashboard.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-event-detail.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-event-detail.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-event-detail.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-event-detail.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-event-detail.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-event-detail.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-event-detail.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-event-detail.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-events.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-events.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-events.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-events.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-events.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-events.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-events.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-events.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-home.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-home.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-home.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-home.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-home.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-home.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-home.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-home.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-location-detail.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-location-detail.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-location-detail.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-location-detail.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-location-detail.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-location-detail.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-location-detail.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-location-detail.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-locations.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-locations.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-locations.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-locations.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-locations.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-locations.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-locations.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-locations.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-login.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-login.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-login.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-login.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-login.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-login.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-login.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-login.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-navigation.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-navigation.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-navigation.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-navigation.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-navigation.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-navigation.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-navigation.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-navigation.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-news-detail.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-news-detail.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-news-detail.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-news-detail.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-news-detail.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-news-detail.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-news-detail.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-news-detail.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-news.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-news.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-news.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-news.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-news.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-news.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-news.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-news.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-page-component-edit.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-page-component-edit.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-page-component-edit.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-page-component-edit.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-page-component-edit.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-page-component-edit.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-page-component-edit.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-page-component-edit.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-page-detail.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-page-detail.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-page-detail.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-page-detail.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-page-detail.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-page-detail.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-page-detail.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-page-detail.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-pages.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-pages.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-pages.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-pages.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-pages.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-pages.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-pages.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-pages.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-product-detail.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-product-detail.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-product-detail.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-product-detail.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-product-detail.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-product-detail.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-product-detail.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-product-detail.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-products.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-products.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-products.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-products.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-products.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-products.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-products.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-products.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-profile.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-profile.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-profile.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-profile.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-profile.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-profile.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-profile.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-profile.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-project-detail.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-project-detail.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-project-detail.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-project-detail.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-project-detail.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-project-detail.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-project-detail.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-project-detail.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-projects.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-projects.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-projects.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-projects.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-projects.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-projects.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-projects.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-projects.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-static-languages.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-static-languages.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-static-languages.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-static-languages.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-static-languages.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-static-languages.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-static-languages.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-static-languages.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu-edit.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu-edit.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu-edit.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu-edit.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu-edit.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu-edit.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu-edit.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu-edit.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app-top-menu.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app.core.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app.core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app.core.pf.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app.core.pf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app.global.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app.global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/app.registry.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/app.registry.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/array.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/chunk-0c6cb0e8.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/chunk-1931ffef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/chunk-2c4f1c37.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/chunk-721f944e.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/chunk-ac6932ea.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/chunk-b1f9a1ed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/chunk-ebfe9714.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/chunk-f583fba6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/dom.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/fetch.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/new-category-component.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/new-category-component.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/new-category-component.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/new-category-component.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/new-category-component.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/new-category-component.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/new-category-component.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/new-category-component.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/object.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/stencil-route-link.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/stencil-route-link.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/stencil-route-link.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/stencil-route-link.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/stencil-route-link.sc.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/stencil-route-link.sc.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/stencil-route-link.sc.es5.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-files/www/build/app/stencil-route-link.sc.es5.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/string.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/url.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-files/www/build/app/url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/akmbyxqo.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/akmbyxqo.es5.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/akmbyxqo.sc.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/akmbyxqo.sc.es5.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/app.kpjxpl6k.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/app.registry.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/app/app.registry.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/app.uwmkkdjt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/kbbvhzsq.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/kbbvhzsq.es5.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/kbbvhzsq.sc.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/kbbvhzsq.sc.es5.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/rgqfcqod.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/rgqfcqod.es5.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/rgqfcqod.sc.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/app/rgqfcqod.sc.es5.entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/sw.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,116 +175,106 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/admin-files/www/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="211">
-                  <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/routes.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="303">
-                  <caret line="171" column="22" lean-forward="true" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="12" selection-start-column="12" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/routes____.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="146" column="4" selection-start-line="146" selection-end-line="146" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/auth.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/database.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/passport.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="226">
-                  <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="310">
-                  <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/server.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="851">
+              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin-files/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="162" column="31" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes____.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3358">
+              <caret line="146" column="4" selection-start-line="146" selection-end-line="146" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/auth.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/passport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>multer</find>
-      <find>build</find>
       <find>passport</find>
       <find>port</find>
       <find>routes</find>
       <find>server/</find>
       <find>dirs</find>
+      <find>cdn</find>
+      <find>serdaraglamis</find>
+      <find>build</find>
+      <find>serdaraglamis.com</find>
+      <find>demo.duratek</find>
     </findStrings>
     <replaceStrings>
       <replace>/_admin/assets</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\Projects\Ersin\duratek-production-repository</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,10 +284,10 @@
       <list>
         <option value="$PROJECT_DIR$/admin-files/www/index.html" />
         <option value="$PROJECT_DIR$/config/passport.js" />
-        <option value="$PROJECT_DIR$/config/database.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/routes.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/config/database.js" />
       </list>
     </option>
   </component>
@@ -183,6 +334,11 @@
               <item name="duratek-production-repository" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="duratek-production-repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duratek-production-repository" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -191,7 +347,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Personal/fashicon" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -223,21 +379,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546941120369</updated>
-      <workItem from="1546941126738" duration="2199000" />
+      <workItem from="1546941126738" duration="3173000" />
+      <workItem from="1546949861422" duration="26000" />
+      <workItem from="1547125933282" duration="1315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2199000" />
+    <option name="totallyTimeSpent" value="4514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -260,65 +418,65 @@
     <entry file="file://$PROJECT_DIR$/www/build/app/app.kpjxpl6k.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/admin-files/www/build/app/dom.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes____.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3358">
+          <caret line="146" column="4" selection-start-line="146" selection-end-line="146" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/auth.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin-files/www/build/app/dom.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-files/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="414">
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        <state relative-caret-position="805">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="851">
           <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes____.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="146" column="4" selection-start-line="146" selection-end-line="146" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="171" column="22" lean-forward="true" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
+        <state relative-caret-position="42">
+          <caret line="162" column="31" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/admin-files/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="805">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

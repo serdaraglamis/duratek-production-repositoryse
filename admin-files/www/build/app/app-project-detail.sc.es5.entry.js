@@ -33,8 +33,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-/*! Built with http://stenciljs.com */
-App.loadBundle('app-project-detail', ['exports', './chunk-ac6932ea.js', './chunk-ebfe9714.js', './chunk-721f944e.js'], function (exports, __chunk_1, __chunk_3, __chunk_4) {
+App.loadBundle('app-project-detail', ['exports', './chunk-f83566b1.js', './chunk-0d315693.js', './chunk-a53c4158.js', './chunk-aa48cfa8.js'], function (exports, __chunk_1, __chunk_2, __chunk_3, __chunk_4) {
     var h = window.App.h;
     var appProjectDetail = /** @class */ (function () {
         function appProjectDetail() {

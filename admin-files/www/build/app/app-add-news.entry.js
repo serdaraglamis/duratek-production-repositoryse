@@ -1,9 +1,9 @@
-/*! Built with http://stenciljs.com */
-const { h } = window.App;
+const h = window.App.h;
 
-import { a as postDataFromPath } from './chunk-1931ffef.js';
-import { a as Sortable$1 } from './chunk-f583fba6.js';
-import { a as cloneDeep } from './chunk-b1f9a1ed.js';
+import { a as postDataFromPath } from './chunk-cc9391f5.js';
+import './chunk-84ac4f31.js';
+import { a as Sortable$1 } from './chunk-70a5aa93.js';
+import { a as cloneDeep } from './chunk-597c4635.js';
 
 class appAddNews {
     constructor() {

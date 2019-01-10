@@ -1,5 +1,4 @@
-/*! Built with http://stenciljs.com */
-App.loadBundle('stencil-route-link', ['exports', './chunk-0c6cb0e8.js'], function (exports, __chunk_5) {
+App.loadBundle('stencil-route-link', ['exports', './chunk-59532e16.js'], function (exports, __chunk_5) {
     var h = window.App.h;
     function getUrl(url, root) {
         if (url.charAt(0) == "/" && root.charAt(root.length - 1) == "/") {

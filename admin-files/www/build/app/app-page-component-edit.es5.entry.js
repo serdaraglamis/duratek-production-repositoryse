@@ -33,10 +33,10 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-/*! Built with http://stenciljs.com */
-App.loadBundle('app-page-component-edit', ['exports', './chunk-ac6932ea.js', './chunk-721f944e.js'], function (exports, __chunk_1, __chunk_4) {
+App.loadBundle('app-page-component-edit', ['exports', './chunk-f83566b1.js', './chunk-0d315693.js', './chunk-aa48cfa8.js'], function (exports, __chunk_1, __chunk_2, __chunk_4) {
     var h = window.App.h;
-    var vdom = __chunk_1.createCommonjsModule(function (module, exports) {
+    var vdom = __chunk_2.createCommonjsModule(function (module, exports) {
+        'use strict';
         Object.defineProperty(exports, '__esModule', { value: true });
         /**
          * Production h() function based on Preact by
@@ -51,7 +51,10 @@ App.loadBundle('app-page-component-edit', ['exports', './chunk-ac6932ea.js', './
             var children = null;
             var lastSimple = false;
             var simple = false;
-            for (var i = arguments.length; i-- > 2;) {
+            var i = arguments.length;
+            var vkey;
+            var vname;
+            for (; i-- > 2;) {
                 stack.push(arguments[i]);
             }
             while (stack.length > 0) {
@@ -88,8 +91,6 @@ App.loadBundle('app-page-component-edit', ['exports', './chunk-ac6932ea.js', './
                     lastSimple = simple;
                 }
             }
-            var vkey;
-            var vname;
             if (vnodeData != null) {
                 // normalize class / classname attributes
                 if (vnodeData['className']) {
@@ -126,37 +127,13 @@ App.loadBundle('app-page-component-edit', ['exports', './chunk-ac6932ea.js', './
                 ishost: false
             };
         }
-        function childToVNode(child) {
-            return {
-                vtag: child['vtag'],
-                vchildren: child['vchildren'],
-                vtext: child['vtext'],
-                vattrs: child['vattrs'],
-                vkey: child['vkey'],
-                vname: child['vname']
-            };
-        }
-        function VNodeToChild(vnode) {
-            return {
-                'vtag': vnode.vtag,
-                'vchildren': vnode.vchildren,
-                'vtext': vnode.vtext,
-                'vattrs': vnode.vattrs,
-                'vkey': vnode.vkey,
-                'vname': vnode.vname
-            };
-        }
         var utils = {
-            'forEach': function (children, cb) {
-                children.forEach(function (item, index, array) { return cb(VNodeToChild(item), index, array); });
-            },
-            'map': function (children, cb) {
-                return children.map(function (item, index, array) { return childToVNode(cb(VNodeToChild(item), index, array)); });
-            }
+            'forEach': function (children, cb) { return children.forEach(cb); },
+            'map': function (children, cb) { return children.map(cb); }
         };
         exports.h = h;
     });
-    __chunk_1.unwrapExports(vdom);
+    __chunk_2.unwrapExports(vdom);
     var vdom_1 = vdom.h;
     var appPageComponentEdit = /** @class */ (function () {
         function appPageComponentEdit() {

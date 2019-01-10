@@ -1,4 +1,3 @@
-/*! Built with http://stenciljs.com */
 App.loadBundle('app-dashboard', ['exports'], function (exports) {
     var h = window.App.h;
     var appDashboard = /** @class */ (function () {

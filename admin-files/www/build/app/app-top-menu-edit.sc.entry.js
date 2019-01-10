@@ -1,5 +1,4 @@
-/*! Built with http://stenciljs.com */
-const { h } = window.App;
+const h = window.App.h;
 
 class appTopMenuEdit {
     render() {

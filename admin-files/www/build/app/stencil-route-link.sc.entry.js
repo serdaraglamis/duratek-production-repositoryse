@@ -1,7 +1,6 @@
-/*! Built with http://stenciljs.com */
-const { h } = window.App;
+const h = window.App.h;
 
-import { a as matchPath, v as isModifiedEvent, c as ActiveRouter } from './chunk-2c4f1c37.js';
+import { a as matchPath, v as isModifiedEvent, c as ActiveRouter } from './chunk-0b1aeebe.js';
 
 function getUrl(url, root) {
     if (url.charAt(0) == "/" && root.charAt(root.length - 1) == "/") {

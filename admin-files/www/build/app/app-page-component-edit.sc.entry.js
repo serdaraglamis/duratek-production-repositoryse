@@ -1,10 +1,11 @@
-/*! Built with http://stenciljs.com */
-const { h } = window.App;
+const h = window.App.h;
 
-import { g as commonjsGlobal, h as unwrapExports, i as createCommonjsModule, b as getFromPath, c as updateFromPath } from './chunk-1931ffef.js';
-import { a as cloneDeep } from './chunk-b1f9a1ed.js';
+import { b as getFromPath, c as updateFromPath } from './chunk-cc9391f5.js';
+import { a as createCommonjsModule, c as unwrapExports } from './chunk-84ac4f31.js';
+import { a as cloneDeep } from './chunk-597c4635.js';
 
 var vdom = createCommonjsModule(function (module, exports) {
+'use strict';
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -21,7 +22,10 @@ function h(nodeName, vnodeData) {
     let children = null;
     let lastSimple = false;
     let simple = false;
-    for (var i = arguments.length; i-- > 2;) {
+    let i = arguments.length;
+    let vkey;
+    let vname;
+    for (; i-- > 2;) {
         stack.push(arguments[i]);
     }
     while (stack.length > 0) {
@@ -58,8 +62,6 @@ function h(nodeName, vnodeData) {
             lastSimple = simple;
         }
     }
-    let vkey;
-    let vname;
     if (vnodeData != null) {
         // normalize class / classname attributes
         if (vnodeData['className']) {
@@ -96,33 +98,9 @@ function h(nodeName, vnodeData) {
         ishost: false
     };
 }
-function childToVNode(child) {
-    return {
-        vtag: child['vtag'],
-        vchildren: child['vchildren'],
-        vtext: child['vtext'],
-        vattrs: child['vattrs'],
-        vkey: child['vkey'],
-        vname: child['vname']
-    };
-}
-function VNodeToChild(vnode) {
-    return {
-        'vtag': vnode.vtag,
-        'vchildren': vnode.vchildren,
-        'vtext': vnode.vtext,
-        'vattrs': vnode.vattrs,
-        'vkey': vnode.vkey,
-        'vname': vnode.vname
-    };
-}
 const utils = {
-    'forEach': (children, cb) => {
-        children.forEach((item, index, array) => cb(VNodeToChild(item), index, array));
-    },
-    'map': (children, cb) => {
-        return children.map((item, index, array) => childToVNode(cb(VNodeToChild(item), index, array)));
-    }
+    'forEach': (children, cb) => children.forEach(cb),
+    'map': (children, cb) => children.map(cb)
 };
 
 exports.h = h;

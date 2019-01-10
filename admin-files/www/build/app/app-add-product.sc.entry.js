@@ -1,7 +1,6 @@
-/*! Built with http://stenciljs.com */
-const { h } = window.App;
+const h = window.App.h;
 
-import { b as getFromPath, a as postDataFromPath, c as updateFromPath } from './chunk-1931ffef.js';
+import { b as getFromPath, a as postDataFromPath, c as updateFromPath } from './chunk-cc9391f5.js';
 
 function flat(array) {
     var result = [];
@@ -275,6 +274,7 @@ class appAddProduct {
                 " ",
                 it.children ? '>>>' : ''));
         }
+        
     }
     _renderForm() {
         if (this.productDetail) {

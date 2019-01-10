@@ -1,4 +1,3 @@
-/*! Built with http://stenciljs.com */
 App.loadBundle('app-top-menu-edit', ['exports'], function (exports) {
     var h = window.App.h;
     var appTopMenuEdit = /** @class */ (function () {

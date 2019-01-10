@@ -1,6 +1,6 @@
-/*! Built with http://stenciljs.com */
+
 (function(namespace,resourcesUrl){"use strict";
-(function(resourcesUrl){
+(function(Context, resourcesUrl){
     /** @stencil/redux global **/
 
     Context.store = (function () {
@@ -45,5 +45,5 @@
             mapStateToProps
         };
     })();
-})(resourcesUrl);
+})(x,r);
 })("App");

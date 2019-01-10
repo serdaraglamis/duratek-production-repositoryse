@@ -1,7 +1,6 @@
-/*! Built with http://stenciljs.com */
-const { h } = window.App;
+const h = window.App.h;
 
-import { d as deleteFromPath, b as getFromPath, c as updateFromPath } from './chunk-1931ffef.js';
+import { b as getFromPath, c as updateFromPath, d as deleteFromPath } from './chunk-cc9391f5.js';
 
 class appProjects {
     constructor() {

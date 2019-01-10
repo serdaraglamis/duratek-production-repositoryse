@@ -1,8 +1,8 @@
-/*! Built with http://stenciljs.com */
-const { h } = window.App;
+const h = window.App.h;
 
-import { g as commonjsGlobal, h as unwrapExports, i as createCommonjsModule, b as getFromPath, c as updateFromPath } from './chunk-1931ffef.js';
-import { a as cloneDeep } from './chunk-b1f9a1ed.js';
+import { b as getFromPath, c as updateFromPath } from './chunk-cc9391f5.js';
+import { a as createCommonjsModule, b as commonjsGlobal } from './chunk-84ac4f31.js';
+import { a as cloneDeep } from './chunk-597c4635.js';
 
 var lodash_isequal = createCommonjsModule(function (module, exports) {
 /**
@@ -99,7 +99,7 @@ var freeSelf = typeof self == 'object' && self && self.Object === Object && self
 var root = freeGlobal || freeSelf || Function('return this')();
 
 /** Detect free variable `exports`. */
-var freeExports = exports && !exports.nodeType && exports;
+var freeExports = 'object' == 'object' && exports && !exports.nodeType && exports;
 
 /** Detect free variable `module`. */
 var freeModule = freeExports && 'object' == 'object' && module && !module.nodeType && module;
@@ -1334,10 +1334,11 @@ function getRawTag(value) {
 
   try {
     value[symToStringTag] = undefined;
+    var unmasked = true;
   } catch (e) {}
 
   var result = nativeObjectToString.call(value);
-  {
+  if (unmasked) {
     if (isOwn) {
       value[symToStringTag] = tag;
     } else {
@@ -2065,6 +2066,7 @@ class appProductDetail {
                 " ",
                 it.children ? '>>>' : ''));
         }
+        
     }
     isPublishedHandler(event) {
         this.productDetail.isPublished = event.target.checked;

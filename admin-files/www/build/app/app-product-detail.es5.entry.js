@@ -33,10 +33,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-/*! Built with http://stenciljs.com */
-App.loadBundle('app-product-detail', ['exports', './chunk-ac6932ea.js', './chunk-721f944e.js'], function (exports, __chunk_1, __chunk_4) {
+App.loadBundle('app-product-detail', ['exports', './chunk-f83566b1.js', './chunk-0d315693.js', './chunk-aa48cfa8.js'], function (exports, __chunk_1, __chunk_2, __chunk_4) {
     var h = window.App.h;
-    var lodash_isequal = __chunk_1.createCommonjsModule(function (module, exports) {
+    var lodash_isequal = __chunk_2.createCommonjsModule(function (module, exports) {
         /**
          * Lodash (Custom Build) <https://lodash.com/>
          * Build: `lodash modularize exports="npm" -o ./`
@@ -81,13 +80,13 @@ App.loadBundle('app-product-detail', ['exports', './chunk-ac6932ea.js', './chunk
                                 typedArrayTags[setTag] = typedArrayTags[stringTag] =
                                     typedArrayTags[weakMapTag] = false;
         /** Detect free variable `global` from Node.js. */
-        var freeGlobal = typeof __chunk_1.commonjsGlobal == 'object' && __chunk_1.commonjsGlobal && __chunk_1.commonjsGlobal.Object === Object && __chunk_1.commonjsGlobal;
+        var freeGlobal = typeof __chunk_2.commonjsGlobal == 'object' && __chunk_2.commonjsGlobal && __chunk_2.commonjsGlobal.Object === Object && __chunk_2.commonjsGlobal;
         /** Detect free variable `self`. */
         var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
         /** Used as a reference to the global object. */
         var root = freeGlobal || freeSelf || Function('return this')();
         /** Detect free variable `exports`. */
-        var freeExports = exports && !exports.nodeType && exports;
+        var freeExports = 'object' == 'object' && exports && !exports.nodeType && exports;
         /** Detect free variable `module`. */
         var freeModule = freeExports && 'object' == 'object' && module && !module.nodeType && module;
         /** Detect the popular CommonJS extension `module.exports`. */
@@ -1144,10 +1143,11 @@ App.loadBundle('app-product-detail', ['exports', './chunk-ac6932ea.js', './chunk
             var isOwn = hasOwnProperty.call(value, symToStringTag), tag = value[symToStringTag];
             try {
                 value[symToStringTag] = undefined;
+                var unmasked = true;
             }
             catch (e) { }
             var result = nativeObjectToString.call(value);
-            {
+            if (unmasked) {
                 if (isOwn) {
                     value[symToStringTag] = tag;
                 }
