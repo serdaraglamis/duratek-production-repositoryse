@@ -34,7 +34,7 @@ app.use('/cdn', express.static(__dirname + '/public/uploads'));
 app.use('/assets', express.static(__dirname + '/www/assets'));
 app.use('/_admin/assets', express.static(__dirname + '/admin-files/www/assets'));
 app.use('/_admin/build', express.static(__dirname + '/admin-files/www/build'));
-app.use('/build', exprserdaess.static(__dirname + '/www/build'));
+app.use('/build', express.static(__dirname + '/www/build'));
 // app.use(express.static(__dirname + '/www'))
 
 app.use('/', routes)
