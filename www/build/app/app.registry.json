@@ -2,8 +2,8 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "core": "app.0aijzupe.js",
-  "corePolyfilled": "app.kfupqpho.js",
+  "core": "app.y89ci4va.js",
+  "corePolyfilled": "app.kxynkisv.js",
   "components": {
     "career-component": {
       "bundleIds": {
@@ -42,7 +42,7 @@
     },
     "module-160": {
       "bundleIds": {
-        "$": "zfgkziql"
+        "$": "1whsg1pv"
       }
     },
     "module-20": {
@@ -77,7 +77,7 @@
     },
     "module-460": {
       "bundleIds": {
-        "$": "dtknjkwo"
+        "$": "wzq4zfk9"
       }
     },
     "module-50": {
@@ -147,7 +147,7 @@
     },
     "urunler-page-new": {
       "bundleIds": {
-        "$": "wzlayg92"
+        "$": "ima2juf2"
       }
     }
   }
