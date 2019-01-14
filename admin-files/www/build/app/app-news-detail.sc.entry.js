@@ -342,7 +342,7 @@ class appNewsDetail {
         }
     }
     isPublishedHandler(event) {
-        this.formDetail.isPublished = event.target.checked;
+        this.formDetail.languages[this.selectedLanguage].isEnabled = event.target.checked;
     }
     uploadFileHandler(ev) {
         console.log('file change event arrived', ev);
@@ -378,7 +378,7 @@ class appNewsDetail {
                             h("form", null,
                                 h("div", { class: "section-detail-item-group" },
                                     h("div", { class: "custom-control custom-checkbox" },
-                                        h("input", { checked: this.formDetail.isPublished, type: "checkbox", onChange: this.isPublishedHandler.bind(this) }),
+                                        h("input", { checked: this.formDetail.languages[this.selectedLanguage].isEnabled, type: "checkbox", onChange: this.isPublishedHandler.bind(this) }),
                                         h("label", { class: "custom-control-label" }, "Haberi Yay\u0131nla"),
                                         h("small", { class: "form-text text-muted" },
                                             "Yay\u0131nlanmas\u0131n\u0131 istedi\u011Finiz ",

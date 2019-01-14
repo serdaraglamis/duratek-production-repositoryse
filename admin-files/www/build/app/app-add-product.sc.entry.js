@@ -36,12 +36,14 @@ class appAddProduct {
                     title: '',
                     path: '',
                     description: '',
+                    isEnabled: true,
                 },
                 en: {
                     meta: {},
                     title: '',
                     path: '',
-                    description: ''
+                    description: '',
+                    isEnabled: true
                 }
             }
         };
@@ -219,7 +221,7 @@ class appAddProduct {
         }
     }
     isPublishedHandler(event) {
-        this.productDetail.isPublished = event.target.checked;
+        this.productDetail.languages[this.selectedLanguage].isEnabled = event.target.checked;
     }
     removeCategory(index, e) {
         e.preventDefault();
@@ -283,7 +285,7 @@ class appAddProduct {
                     h("form", null,
                         h("div", { class: "section-detail-item-group" },
                             h("div", { class: "custom-control custom-checkbox" },
-                                h("input", { onChange: this.isPublishedHandler.bind(this), type: "checkbox", id: "productPublicationCheck", checked: this.productDetail.isPublished }),
+                                h("input", { onChange: this.isPublishedHandler.bind(this), type: "checkbox", id: "productPublicationCheck", checked: this.productDetail.languages[this.selectedLanguage].isEnabled }),
                                 h("label", { class: "custom-control-label" }, "\u00DCr\u00FCn\u00FC Yay\u0131nla"),
                                 h("small", { class: "form-text text-muted" }, "Yay\u0131nlanmas\u0131n\u0131 istedi\u011Finiz \u00FCr\u00FCn i\u00E7in bu kutucu\u011Fu i\u015Faretleyiniz. Ayn\u0131 i\u015Flemi di\u011Fer dil se\u00E7enekleri i\u00E7in de yapmal\u0131s\u0131n\u0131z."))),
                         h("div", { class: "section-detail-item-group" },
