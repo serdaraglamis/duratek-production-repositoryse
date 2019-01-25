@@ -2,8 +2,8 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "core": "app.y89ci4va.js",
-  "corePolyfilled": "app.kxynkisv.js",
+  "core": "app.dfxwgeiv.js",
+  "corePolyfilled": "app.2bfpmmh0.js",
   "components": {
     "career-component": {
       "bundleIds": {
@@ -12,12 +12,12 @@
     },
     "cerez-component": {
       "bundleIds": {
-        "$": "ynfc0zuw"
+        "$": "mgocgphy"
       }
     },
     "duyuru-component": {
       "bundleIds": {
-        "$": "ynfc0zuw"
+        "$": "mgocgphy"
       }
     },
     "iletisim-statik": {
@@ -62,7 +62,7 @@
     },
     "module-440": {
       "bundleIds": {
-        "$": "8vtuppqd"
+        "$": "esiavzxo"
       }
     },
     "module-440-event": {
@@ -72,12 +72,12 @@
     },
     "module-450": {
       "bundleIds": {
-        "$": "qxvq11a2"
+        "$": "ttqnibqu"
       }
     },
     "module-460": {
       "bundleIds": {
-        "$": "wzq4zfk9"
+        "$": "iul2lgpk"
       }
     },
     "module-50": {
@@ -132,7 +132,12 @@
     },
     "my-app": {
       "bundleIds": {
-        "$": "ynfc0zuw"
+        "$": "mgocgphy"
+      }
+    },
+    "sertifika-slayt": {
+      "bundleIds": {
+        "$": "fes2uayf"
       }
     },
     "static-text": {
@@ -147,7 +152,7 @@
     },
     "urunler-page-new": {
       "bundleIds": {
-        "$": "ima2juf2"
+        "$": "t0ate7n3"
       }
     }
   }
