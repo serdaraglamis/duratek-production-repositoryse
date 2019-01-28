@@ -1,340 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d23228-36dc-4e2f-a9fa-4ba24e3db3ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/announcements/sample-announcement-image-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/icons/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/icons/favicon@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/icons/icon-hd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/icons/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/icons/touch-icon-ipad-pro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/icons/touch-icon-ipad-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/icons/touch-icon-ipad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/icons/touch-icon-iphone-6-plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/icons/touch-icon-iphone-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/icons/touch-icon-iphone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-en-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-en-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-en-dark@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-en-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-en-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-en-light@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-light-wo-motto.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-tr-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-tr-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-tr-dark@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-tr-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-tr-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/duratek-logo-tr-light@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/base/logo/logo-twoshape-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/gallery/thumb/gallery-sample-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/gallery/thumb/gallery-sample-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/gallery/thumb/gallery-sample-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/gallery/thumb/gallery-sample-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/gallery/thumb/gallery-sample-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/hero/company-hero-1200x800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/hero/contact-hero-1200x480.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/hero/min/company-hero-1200x800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/hero/min/contact-hero-1200x480.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/hero/products-hero-1200x480.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/hero/projects-hero-1200x480.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/locations/vertical/Rectangle 19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/locations/vertical/location-sample-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/locations/vertical/location-sample-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/locations/vertical/location-sample-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/locations/vertical/location-sample-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/locations/vertical/location-sample-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/locations/vertical/locations-istanbul.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/locations/vertical/locations-izmir-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/milestones-dots-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/milestones-dots-bg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/milestones/milestone-sample-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/milestones/milestone-sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/izolips.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/light-blue-gradient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/light-blue-gradient.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/light-blue-gradient@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/min/izolips.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/min/light-blue-gradient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/min/light-blue-gradient@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/min/projects-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/min/projects-bg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/projects-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/modulebg/projects-bg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/news/md/sample-news-image-06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/news/sm/sample_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/news/sm/sample_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/news/sm/sample_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/news/xs/sample_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/news/xs/sample_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/news/xs/sample_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/projects/lg/sample-project-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/projects/md/sample-project-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/projects/sm/sample-project-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/projects/sm/sample-project-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/quotes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/quotes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/slider/home-slider-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/slider/home-slider-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/tuv-logo-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/tuv-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/tuv-logo@2x-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/content/images/tuv-logo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/aos/aos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/floatlabel/float-label.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-BoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-BoldItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-BoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Book.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Book.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Book.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Book.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Book.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-BookItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-BookItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-BookItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-BookItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-BookItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-ExtraBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-ExtraBold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-ExtraBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-ExtraBold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-ExtraBoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-ExtraBoldItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-ExtraBoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-ExtraBoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Heavy.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Heavy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Heavy.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Heavy.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Heavy.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-HeavyItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-HeavyItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-HeavyItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-HeavyItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-HeavyItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Italic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-LightItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-LightItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-LightItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-LightItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Medium.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-MediumItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-MediumItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-MediumItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-MediumItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-SemiBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-SemiBold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-SemiBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-SemiBold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-SemiBoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-SemiBoldItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-SemiBoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/cs/CerebriSans-SemiBoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/icon/duratek.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/icon/duratek.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/icon/duratek.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/fonts/icon/duratek.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/lists/lists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/mixins/mixins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/modules/modules.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/custom-skin-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/custom-skin-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/custom-skin-dark@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/custom-skin-dark@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/custom-skin-dark@3x.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/custom-skin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/custom-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/custom-skin.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/custom-skin.sketch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/custom-skin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/default-skin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/default-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/default-skin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/default-skin/ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/photoswipe/photoswipe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/swiper/swiper.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/swiper/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/ui.easytree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/icon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/icon/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/icon/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/aos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/easytree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/modules/accordion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/modules/global.nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/modules/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/modules/module.100.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/modules/module.15.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/modules/module.724.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/modules/module.800.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/photoswipe/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/photoswipe/photoswipe-initializer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/photoswipe/photoswipe-ui-default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/photoswipe/photoswipe-ui-default.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/photoswipe/photoswipe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/photoswipe/photoswipe.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/swiper/swiper.esm.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/swiper/swiper.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/swiper/swiper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/swiper/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/swiper/swiper.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/toast/siiimple-toast.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/toast/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/1whsg1pv.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/1whsg1pv.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/1whsg1pv.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/1whsg1pv.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/8vtuppqd.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/8vtuppqd.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/8vtuppqd.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/8vtuppqd.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/9hdraqgk.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/9hdraqgk.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/9hdraqgk.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/9hdraqgk.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/a0bicwpq.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/a0bicwpq.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/a0bicwpq.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/a0bicwpq.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/app.kxynkisv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/app.registry.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/app.y89ci4va.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/awgpbzn4.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/awgpbzn4.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/awgpbzn4.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/awgpbzn4.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/euppqyex.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/euppqyex.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/euppqyex.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/euppqyex.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/gqiypeya.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/gqiypeya.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/gqiypeya.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/gqiypeya.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/hijua9h4.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/hijua9h4.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/hijua9h4.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/hijua9h4.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/hkrl37z5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/hkrl37z5.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/hkrl37z5.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/hkrl37z5.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/ima2juf2.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/ima2juf2.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/ima2juf2.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/ima2juf2.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/iqajpqmb.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/iqajpqmb.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/iqajpqmb.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/iqajpqmb.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/n9gzljvj.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/n9gzljvj.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/n9gzljvj.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/n9gzljvj.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/nhev08sv.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/nhev08sv.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/nhev08sv.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/nhev08sv.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/nvdszlgp.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/nvdszlgp.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/nvdszlgp.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/nvdszlgp.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/oxtne0my.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/oxtne0my.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/oxtne0my.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/oxtne0my.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/oyw6xyoc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/oyw6xyoc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/oyw6xyoc.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/oyw6xyoc.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/pfoh7hy2.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/pfoh7hy2.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/pfoh7hy2.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/pfoh7hy2.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/qxvq11a2.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/qxvq11a2.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/qxvq11a2.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/qxvq11a2.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/u6vtachp.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/u6vtachp.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/u6vtachp.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/u6vtachp.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/v0y6hyr7.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/v0y6hyr7.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/v0y6hyr7.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/v0y6hyr7.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/v1lvk3ob.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/v1lvk3ob.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/v1lvk3ob.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/v1lvk3ob.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/vg9fxppl.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/vg9fxppl.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/vg9fxppl.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/vg9fxppl.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/wzq4zfk9.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/wzq4zfk9.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/wzq4zfk9.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/wzq4zfk9.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/xaelsgrc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/xaelsgrc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/xaelsgrc.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/xaelsgrc.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/xmrlspcc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/xmrlspcc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/xmrlspcc.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/xmrlspcc.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/y7ts18d5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/y7ts18d5.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/y7ts18d5.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/y7ts18d5.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/ynfc0zuw.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/ynfc0zuw.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/ynfc0zuw.sc.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/app/ynfc0zuw.sc.es5.entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/sw.js" beforeDir="false" />
-    </list>
+    <list default="true" id="41d23228-36dc-4e2f-a9fa-4ba24e3db3ec" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -350,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/admin-files/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -469,7 +136,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Anamorfix-Frontend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -508,20 +175,21 @@
       <workItem from="1547125933282" duration="3473000" />
       <workItem from="1547462340524" duration="1274000" />
       <workItem from="1548421926463" duration="644000" />
+      <workItem from="1548668152953" duration="609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8590000" />
+    <option name="totallyTimeSpent" value="9199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3691275" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3691275" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -607,7 +275,7 @@
     <entry file="file://$PROJECT_DIR$/admin-files/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>

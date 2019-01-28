@@ -304,7 +304,7 @@ App.loadBundle('app-products', ['exports', './chunk-f83566b1.js', './chunk-0d315
                                 if (a.categories && a.categories.length) {
                                     a.categories.forEach(function (b) {
                                         var category = temporaryCategories.find(function (a) { return a._id === b; });
-                                        if (category) {
+                                        if (category && !category.products.includes(a._id)) {
                                             category.products.push(a._id);
                                         }
                                     });

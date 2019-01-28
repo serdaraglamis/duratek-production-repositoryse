@@ -234,7 +234,7 @@ class appProducts {
             if (a.categories && a.categories.length) {
                 a.categories.forEach(b => {
                     let category = temporaryCategories.find(a => a._id === b);
-                    if (category) {
+                    if (category && !category.products.includes(a._id)) {
                         category.products.push(a._id);
                     }
                 });

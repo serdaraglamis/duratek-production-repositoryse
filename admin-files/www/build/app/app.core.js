@@ -196,9 +196,9 @@ const setAccessor = (plt, elm, memberName, oldValue, newValue, isSvg, isHostElem
   memberName = toLowerCase(memberName) in elm ? toLowerCase(memberName.substring(2)) : toLowerCase(memberName[2]) + memberName.substring(3), 
   newValue ? newValue !== oldValue && 
   // add listener
-  plt.domApi.$addEventListener(elm, memberName, newValue) : 
+  plt.domApi.$addEventListener(elm, memberName, newValue, 0) : 
   // remove listener
-  plt.domApi.$removeEventListener(elm, memberName); else if (oldValue !== newValue) {
+  plt.domApi.$removeEventListener(elm, memberName, 0); else if (oldValue !== newValue) {
     const oldList = parseClassList(oldValue);
     const newList = parseClassList(newValue);
     // remove classes in oldList, not included in newList
@@ -654,7 +654,7 @@ function initElementListeners(plt, elm) {
         // when the instance is ready
         val = plt.queuedEvents.get(elm) || [], val.push(eventMethodName, ev), plt.queuedEvents.set(elm, val));
       };
-    }(plt, elm, listenMeta.eventMethodName), listenMeta.eventCapture, listenMeta.eventPassive);
+    }(plt, elm, listenMeta.eventMethodName), 1, listenMeta.eventCapture, listenMeta.eventPassive);
   });
 }
 
@@ -1465,14 +1465,14 @@ const initHostElement = (plt, cmpMeta, HostElementConstructor, hydratedCssClass,
         if ('window' === referenceName) return win;
         return elm;
       },
-      $addEventListener: (assignerElm, eventName, listenerCallback, useCapture, usePassive, attachTo, eventListenerOpts, splt, assignersEventName) => {
+      $addEventListener: (assignerElm, eventName, listenerCallback, assignerId, useCapture, usePassive, attachTo, eventListenerOpts, splt, assignersEventName) => {
         // remember the original name before we possibly change it
         let attachToElm = assignerElm;
         let eventListener = listenerCallback;
         // get the existing unregister listeners for
         // this element from the unregister listeners weakmap
                 let assignersUnregListeners = unregisterListenerFns.get(assignerElm);
-        assignersEventName = eventName, assignersUnregListeners && assignersUnregListeners[assignersEventName] && 
+        assignersEventName = eventName + assignerId, assignersUnregListeners && assignersUnregListeners[assignersEventName] && 
         // removed any existing listeners for this event for the assigner element
         // this element already has this listener, so let's unregister it now
         assignersUnregListeners[assignersEventName](), 'object' === typeof attachTo && (
@@ -1495,13 +1495,13 @@ const initHostElement = (plt, cmpMeta, HostElementConstructor, hydratedCssClass,
           assignersUnregListeners[assignersEventName] = null;
         }));
       },
-      $removeEventListener: (elm, eventName, assignersUnregListeners) => {
+      $removeEventListener: (elm, eventName, assignerId, assignersUnregListeners) => {
         // get the unregister listener functions for this element
         (assignersUnregListeners = unregisterListenerFns.get(elm)) && (
         // this element has unregister listeners
         eventName ? 
         // passed in one specific event name to remove
-        assignersUnregListeners[eventName] && assignersUnregListeners[eventName]() : 
+        assignersUnregListeners[eventName + assignerId] && assignersUnregListeners[eventName + assignerId]() : 
         // remove all event listeners
         Object.keys(assignersUnregListeners).forEach(assignersEventName => {
           assignersUnregListeners[assignersEventName] && assignersUnregListeners[assignersEventName]();
