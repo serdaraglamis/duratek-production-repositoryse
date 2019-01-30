@@ -2,8 +2,8 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "core": "app.b0pdctzb.js",
-  "corePolyfilled": "app.yxag31sl.js",
+  "core": "app.lloeynai.js",
+  "corePolyfilled": "app.jj4y98f4.js",
   "components": {
     "career-component": {
       "bundleIds": {
@@ -67,7 +67,7 @@
     },
     "module-440-event": {
       "bundleIds": {
-        "$": "nvdszlgp"
+        "$": "y1okmdqq"
       }
     },
     "module-450": {
