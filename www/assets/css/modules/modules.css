@@ -2701,49 +2701,66 @@ p + .module-40 {
 }
 
 /* line 14, ../../scss/modules/_module-610.scss */
+.module-610-container-wide {
+  max-width: 1030px;
+}
+/* line 16, ../../scss/modules/_module-610.scss */
+.module-610-container-wide .module-60 {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* line 20, ../../scss/modules/_module-610.scss */
 .module-610-header {
   grid-column: auto / 2 span;
   margin-bottom: 12px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 18, ../../scss/modules/_module-610.scss */
+/* line 27, ../../scss/modules/_module-610.scss */
 .module-610-header > h2 {
   font-size: 48px;
   line-break: 60px;
 }
 
-/* line 22, ../../scss/modules/_module-610.scss */
+/* line 31, ../../scss/modules/_module-610.scss */
 .module-610-header > p {
   font-size: 20px;
   line-height: 30px;
 }
 
-/* line 30, ../../scss/modules/_module-610.scss */
+/* line 39, ../../scss/modules/_module-610.scss */
 .module-610-item > h3 {
   font-size: 28px;
   line-height: 36px;
 }
 
-/* line 34, ../../scss/modules/_module-610.scss */
+/* line 43, ../../scss/modules/_module-610.scss */
 .module-610-item > p {
   font-size: 17px;
   line-height: 24px;
 }
 
+/* line 48, ../../scss/modules/_module-610.scss */
+.ps-gallery {
+  grid-column: auto / 2 span;
+}
+
 @media all and (max-width: 767px) {
-  /* line 40, ../../scss/modules/_module-610.scss */
+  /* line 54, ../../scss/modules/_module-610.scss */
   .module-610-container {
     grid-template-columns: 1fr;
     grid-gap: 30px;
   }
 
-  /* line 44, ../../scss/modules/_module-610.scss */
+  /* line 58, ../../scss/modules/_module-610.scss */
   .module-610-header {
     grid-column: auto / 1 span;
     text-align: left;
   }
 
-  /* line 48, ../../scss/modules/_module-610.scss */
+  /* line 62, ../../scss/modules/_module-610.scss */
   .module-610-item {
     text-align: left;
   }
@@ -2969,7 +2986,7 @@ p + .module-40 {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("/assets/content/images/quotes.svg") top left no-repeat;
+  background: url("../../content/images/quotes.svg") top left no-repeat;
   width: 100%;
   height: 100%;
   opacity: .1;
@@ -3863,6 +3880,14 @@ p + .module-723 {
 }
 
 /* line 87, ../../scss/modules/_module-724.scss */
+.module-724-item-content > h2 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+/* line 93, ../../scss/modules/_module-724.scss */
 .module-724-item-content > p {
   font-size: 16px;
   line-height: 24px;
@@ -3870,9 +3895,21 @@ p + .module-723 {
   color: #282E34;
 }
 
-/* line 93, ../../scss/modules/_module-724.scss */
+/* line 99, ../../scss/modules/_module-724.scss */
 .module-724-item-content > p:last-child {
   margin-bottom: 0px;
+}
+
+/* line 102, ../../scss/modules/_module-724.scss */
+.module-724-item-content > ul {
+  list-style-type: circle;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 107, ../../scss/modules/_module-724.scss */
+.module-724-item-content > ul > li {
+  margin-bottom: 12px;
 }
 
 /* line 3, ../../scss/modules/_module-730.scss */
@@ -3925,23 +3962,22 @@ p + .module-723 {
 
 /* line 40, ../../scss/modules/_module-730.scss */
 .module-730-body-item {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 30px;
+  display: block;
   margin-bottom: 60px;
 }
 
-/* line 46, ../../scss/modules/_module-730.scss */
+/* line 44, ../../scss/modules/_module-730.scss */
 .module-730-body-item > .title {
-  grid-column: auto / span 4;
+  display: block;
   font-family: "Cerebri Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 24px;
   line-height: 29px;
   font-weight: 500;
   color: #282E34;
+  margin-bottom: 15px;
 }
 
-/* line 55, ../../scss/modules/_module-730.scss */
+/* line 53, ../../scss/modules/_module-730.scss */
 .module-730-body-item > .title > .info {
   display: block;
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -3952,36 +3988,53 @@ p + .module-723 {
   margin-top: 15px;
 }
 
-/* line 64, ../../scss/modules/_module-730.scss */
+/* line 62, ../../scss/modules/_module-730.scss */
 .module-730-body-item > .content {
-  grid-column: auto / span 8;
+  display: block;
   padding-bottom: 30px;
 }
 
-/* line 68, ../../scss/modules/_module-730.scss */
+/* line 66, ../../scss/modules/_module-730.scss */
 .module-730-body-item:not(:last-child) > .content {
   border-bottom: 1px solid #E6E9ED;
 }
 
+/* line 69, ../../scss/modules/_module-730.scss */
+.module-730-body-item > .content > ul {
+  list-style-type: circle;
+}
+
+/* line 72, ../../scss/modules/_module-730.scss */
+.module-730-body-item > .content > ul {
+  list-style-type: circle;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 77, ../../scss/modules/_module-730.scss */
+.module-730-body-item > .content > ul > li {
+  margin-bottom: 12px;
+}
+
 @media (max-width: 767px) {
-  /* line 76, ../../scss/modules/_module-730.scss */
+  /* line 85, ../../scss/modules/_module-730.scss */
   .module-730 {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 80, ../../scss/modules/_module-730.scss */
+  /* line 89, ../../scss/modules/_module-730.scss */
   .module-730-body-item {
     grid-gap: 15px;
     margin-bottom: 30px;
   }
 
-  /* line 84, ../../scss/modules/_module-730.scss */
+  /* line 93, ../../scss/modules/_module-730.scss */
   .module-730-body-item > .title {
     grid-column: auto / span 12;
   }
 
-  /* line 87, ../../scss/modules/_module-730.scss */
+  /* line 96, ../../scss/modules/_module-730.scss */
   .module-730-body-item > .content {
     grid-column: auto / span 12;
     padding-bottom: 15px;
@@ -4682,42 +4735,6 @@ p + .module-723 {
     color: #F75252;
   }
 }
-/* line 2, ../../scss/modules/_module-802.scss */
-.module-802 {
-  position: fixed;
-  overflow: hidden;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  z-index: 9999;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: rgba(0, 0, 0, 0.72);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-/* line 18, ../../scss/modules/_module-802.scss */
-.module-802[aria-hidden="true"] {
-  opacity: 0;
-  z-index: -1;
-  transform: scale(1.1);
-}
-
-/* line 24, ../../scss/modules/_module-802.scss */
-.module-802[aria-hidden="false"] {
-  opacity: 1;
-  z-index: 9999;
-  transform: scale(1);
-}
-
 /* line 1, ../../scss/modules/_module-800.scss */
 .nav-container {
   position: relative;
@@ -4883,7 +4900,41 @@ p + .module-723 {
   font-weight: normal;
 }
 
+/* line 2, ../../scss/modules/_module-802.scss */
+.module-802 {
+  position: fixed;
+  overflow: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 9999;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(0, 0, 0, 0.72);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
+/* line 18, ../../scss/modules/_module-802.scss */
+.module-802[aria-hidden="true"] {
+  opacity: 0;
+  z-index: -1;
+  transform: scale(1.1);
+}
+
+/* line 24, ../../scss/modules/_module-802.scss */
+.module-802[aria-hidden="false"] {
+  opacity: 1;
+  z-index: 9999;
+  transform: scale(1);
+}
 
 /* line 30, ../../scss/modules/_module-802.scss */
 .module-802-container {

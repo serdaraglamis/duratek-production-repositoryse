@@ -4379,49 +4379,66 @@ p + .module-40 {
 }
 
 /* line 14, ../scss/modules/_module-610.scss */
+.module-610-container-wide {
+  max-width: 1030px;
+}
+/* line 16, ../scss/modules/_module-610.scss */
+.module-610-container-wide .module-60 {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* line 20, ../scss/modules/_module-610.scss */
 .module-610-header {
   grid-column: auto / 2 span;
   margin-bottom: 12px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 18, ../scss/modules/_module-610.scss */
+/* line 27, ../scss/modules/_module-610.scss */
 .module-610-header > h2 {
   font-size: 48px;
   line-break: 60px;
 }
 
-/* line 22, ../scss/modules/_module-610.scss */
+/* line 31, ../scss/modules/_module-610.scss */
 .module-610-header > p {
   font-size: 20px;
   line-height: 30px;
 }
 
-/* line 30, ../scss/modules/_module-610.scss */
+/* line 39, ../scss/modules/_module-610.scss */
 .module-610-item > h3 {
   font-size: 28px;
   line-height: 36px;
 }
 
-/* line 34, ../scss/modules/_module-610.scss */
+/* line 43, ../scss/modules/_module-610.scss */
 .module-610-item > p {
   font-size: 17px;
   line-height: 24px;
 }
 
+/* line 48, ../scss/modules/_module-610.scss */
+.ps-gallery {
+  grid-column: auto / 2 span;
+}
+
 @media all and (max-width: 767px) {
-  /* line 40, ../scss/modules/_module-610.scss */
+  /* line 54, ../scss/modules/_module-610.scss */
   .module-610-container {
     grid-template-columns: 1fr;
     grid-gap: 30px;
   }
 
-  /* line 44, ../scss/modules/_module-610.scss */
+  /* line 58, ../scss/modules/_module-610.scss */
   .module-610-header {
     grid-column: auto / 1 span;
     text-align: left;
   }
 
-  /* line 48, ../scss/modules/_module-610.scss */
+  /* line 62, ../scss/modules/_module-610.scss */
   .module-610-item {
     text-align: left;
   }
@@ -4480,7 +4497,7 @@ p + .module-40 {
 
 /* line 54, ../scss/modules/_module-620.scss */
 .module-620-body-item:before {
-  content: url("/assets/content/images/milestones-dots-bg.png");
+  content: url("../../content/images/milestones-dots-bg.png");
   position: absolute;
   display: block;
   top: -15px;
@@ -4513,6 +4530,7 @@ p + .module-40 {
   background-color: #0054A5;
   position: relative;
   min-height: 124px;
+  max-height: 240px;
   overflow: hidden;
   border-radius: 2px;
 }
@@ -4646,7 +4664,7 @@ p + .module-40 {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("/assets/content/images/quotes.svg") top left no-repeat;
+  background: url("../../content/images/quotes.svg") top left no-repeat;
   width: 100%;
   height: 100%;
   opacity: .1;
@@ -6559,7 +6577,6 @@ p + .module-723 {
   padding: 10px;
   font-weight: normal;
 }
-
 
 /* line 2, ../scss/modules/_module-802.scss */
 .module-802 {
