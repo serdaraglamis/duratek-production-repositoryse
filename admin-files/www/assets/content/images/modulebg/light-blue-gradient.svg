@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="585" viewBox="0 0 1200 585">
-  <defs>
-    <radialGradient id="light-blue-gradient-a" cx="10.617%" cy="8.024%" r="205.126%" fx="10.617%" fy="8.024%" gradientTransform="scale(.4875 1) rotate(26.64 .162 .316)">
-      <stop offset="0%" stop-color="#E7F2F6"/>
-      <stop offset="100%" stop-color="#A2D2E7"/>
-    </radialGradient>
-  </defs>
-  <rect width="1200" height="585" fill="url(#light-blue-gradient-a)" fill-rule="evenodd"/>
-</svg>
