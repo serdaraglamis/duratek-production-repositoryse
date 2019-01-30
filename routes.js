@@ -104,8 +104,8 @@ router.post('/api/sendmail', function (req, res) {
   var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'mezreveserdar@gmail.com',
-      pass: 'Dila2323Elazig'
+      user: 'duratekwebform@gmail.com',
+      pass: 'DrTekWbFrm*2019?'
     }
   });
 
@@ -117,7 +117,7 @@ router.post('/api/sendmail', function (req, res) {
       };
       var htmlToSend = template(replacements);
       var mailOptions = {
-        from: 'mezreveserdar@gmail.com',
+        from: 'duratekwebform@gmail.com',
         to: req.body.email,
         subject: 'Ürün Talep Bilgisi',
         html : htmlToSend

@@ -2,8 +2,8 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "core": "app.dfxwgeiv.js",
-  "corePolyfilled": "app.2bfpmmh0.js",
+  "core": "app.b0pdctzb.js",
+  "corePolyfilled": "app.yxag31sl.js",
   "components": {
     "career-component": {
       "bundleIds": {
@@ -22,7 +22,7 @@
     },
     "iletisim-statik": {
       "bundleIds": {
-        "$": "awgpbzn4"
+        "$": "t74shu4b"
       }
     },
     "module-10": {
@@ -62,7 +62,7 @@
     },
     "module-440": {
       "bundleIds": {
-        "$": "esiavzxo"
+        "$": "1smbr8t8"
       }
     },
     "module-440-event": {
@@ -72,12 +72,12 @@
     },
     "module-450": {
       "bundleIds": {
-        "$": "ttqnibqu"
+        "$": "oqtzdbwa"
       }
     },
     "module-460": {
       "bundleIds": {
-        "$": "iul2lgpk"
+        "$": "ssamhsfv"
       }
     },
     "module-50": {
@@ -152,7 +152,7 @@
     },
     "urunler-page-new": {
       "bundleIds": {
-        "$": "t0ate7n3"
+        "$": "cf2utysj"
       }
     }
   }

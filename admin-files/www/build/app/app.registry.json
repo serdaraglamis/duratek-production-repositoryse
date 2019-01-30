@@ -2,178 +2,157 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "global": "app.global.js",
-  "core": "app.core.js",
-  "corePolyfilled": "app.core.pf.js",
+  "core": "app.b0pdctzb.js",
+  "corePolyfilled": "app.yxag31sl.js",
   "components": {
-    "app-add-event": {
+    "career-component": {
       "bundleIds": {
-        "$": "app-add-event"
+        "$": "euppqyex"
       }
     },
-    "app-add-location": {
+    "cerez-component": {
       "bundleIds": {
-        "$": "app-add-location"
+        "$": "mgocgphy"
       }
     },
-    "app-add-news": {
+    "duyuru-component": {
       "bundleIds": {
-        "$": "app-add-news"
+        "$": "mgocgphy"
       }
     },
-    "app-add-product": {
+    "iletisim-statik": {
       "bundleIds": {
-        "$": "app-add-product"
+        "$": "t74shu4b"
       }
     },
-    "app-add-project": {
+    "module-10": {
       "bundleIds": {
-        "$": "app-add-project"
+        "$": "9hdraqgk"
       }
     },
-    "app-categories": {
+    "module-100": {
       "bundleIds": {
-        "$": "app-categories"
+        "$": "xaelsgrc"
       }
     },
-    "app-dashboard": {
+    "module-150": {
       "bundleIds": {
-        "$": "app-dashboard"
+        "$": "pfoh7hy2"
       }
     },
-    "app-event-detail": {
+    "module-160": {
       "bundleIds": {
-        "$": "app-event-detail"
+        "$": "1whsg1pv"
       }
     },
-    "app-events": {
+    "module-20": {
       "bundleIds": {
-        "$": "app-events"
+        "$": "oxtne0my"
       }
     },
-    "app-home": {
+    "module-300": {
       "bundleIds": {
-        "$": "app-home"
+        "$": "oyw6xyoc"
       }
     },
-    "app-location-detail": {
+    "module-310": {
       "bundleIds": {
-        "$": "app-location-detail"
+        "$": "vg9fxppl"
       }
     },
-    "app-locations": {
+    "module-440": {
       "bundleIds": {
-        "$": "app-locations"
+        "$": "1smbr8t8"
       }
     },
-    "app-login": {
+    "module-440-event": {
       "bundleIds": {
-        "$": "app-login"
+        "$": "nvdszlgp"
       }
     },
-    "app-navigation": {
+    "module-450": {
       "bundleIds": {
-        "$": "app-navigation"
+        "$": "oqtzdbwa"
       }
     },
-    "app-news": {
+    "module-460": {
       "bundleIds": {
-        "$": "app-news"
+        "$": "ssamhsfv"
       }
     },
-    "app-news-detail": {
+    "module-50": {
       "bundleIds": {
-        "$": "app-news-detail"
+        "$": "n9gzljvj"
       }
     },
-    "app-page-component-edit": {
+    "module-610": {
       "bundleIds": {
-        "$": "app-page-component-edit"
+        "$": "iqajpqmb"
       }
     },
-    "app-page-detail": {
+    "module-620": {
       "bundleIds": {
-        "$": "app-page-detail"
+        "$": "a0bicwpq"
       }
     },
-    "app-pages": {
+    "module-650": {
       "bundleIds": {
-        "$": "app-pages"
+        "$": "y7ts18d5"
       }
     },
-    "app-product-detail": {
+    "module-660": {
       "bundleIds": {
-        "$": "app-product-detail"
+        "$": "hijua9h4"
       }
     },
-    "app-products": {
+    "module-720": {
       "bundleIds": {
-        "$": "app-products"
+        "$": "xmrlspcc"
       }
     },
-    "app-profile": {
+    "module-800": {
       "bundleIds": {
-        "$": "app-profile"
+        "$": "v1lvk3ob"
       }
     },
-    "app-project-detail": {
+    "module-802": {
       "bundleIds": {
-        "$": "app-project-detail"
+        "$": "gqiypeya"
       }
     },
-    "app-projects": {
+    "module-810": {
       "bundleIds": {
-        "$": "app-projects"
+        "$": "nhev08sv"
       }
     },
-    "app-static-languages": {
+    "module-900": {
       "bundleIds": {
-        "$": "app-static-languages"
-      }
-    },
-    "app-top-menu": {
-      "bundleIds": {
-        "$": "app-top-menu"
-      }
-    },
-    "app-top-menu-edit": {
-      "bundleIds": {
-        "$": "app-top-menu-edit"
+        "$": "v0y6hyr7"
       }
     },
     "my-app": {
       "bundleIds": {
-        "$": "app-login"
+        "$": "mgocgphy"
       }
     },
-    "new-category-component": {
+    "sertifika-slayt": {
       "bundleIds": {
-        "$": "new-category-component"
+        "$": "fes2uayf"
       }
     },
-    "shared-aside": {
+    "static-text": {
       "bundleIds": {
-        "$": "app-login"
+        "$": "hkrl37z5"
       }
     },
-    "shared-header": {
+    "urunler-page": {
       "bundleIds": {
-        "$": "app-login"
+        "$": "u6vtachp"
       }
     },
-    "stencil-route": {
+    "urunler-page-new": {
       "bundleIds": {
-        "$": "app-login"
-      }
-    },
-    "stencil-route-link": {
-      "bundleIds": {
-        "$": "stencil-route-link"
-      }
-    },
-    "stencil-router": {
-      "bundleIds": {
-        "$": "app-login"
+        "$": "cf2utysj"
       }
     }
   }
