@@ -5474,18 +5474,24 @@ p + .module-723 {
 
 /* line 26, ../scss/modules/_module-724.scss */
 .module-724-item-link {
+  /*
   font-size: 0px;
-  line-height: 0px;
-  display: block;
+    line-height: 0px;
+    display: grid;
+    */
+  display: grid;
+  grid-template-columns: 32px auto auto;
+  align-items: start;
+  justify-content: start;
 }
 
-/* line 31, ../scss/modules/_module-724.scss */
+/* line 38, ../scss/modules/_module-724.scss */
 .module-724-item-link > * {
-  display: inline-block;
-  vertical-align: middle;
+  /*display: inline-block;
+  vertical-align: middle;*/
 }
 
-/* line 35, ../scss/modules/_module-724.scss */
+/* line 42, ../scss/modules/_module-724.scss */
 .module-724-item-link > .arrow {
   width: 32px;
   height: 32px;
@@ -5499,21 +5505,22 @@ p + .module-723 {
   transition: all 0.15s ease-in-out;
 }
 
-/* line 44, ../scss/modules/_module-724.scss */
+/* line 51, ../scss/modules/_module-724.scss */
 .module-724-item.active .module-724-item-link > .arrow {
   transform: rotateZ(90deg);
   color: #FCBE57;
 }
 
-/* line 48, ../scss/modules/_module-724.scss */
+/* line 55, ../scss/modules/_module-724.scss */
 .module-724-item-link > .name {
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
   color: #0054A5;
+  padding-top: 6px;
 }
 
-/* line 57, ../scss/modules/_module-724.scss */
+/* line 65, ../scss/modules/_module-724.scss */
 .module-724-item-link > .code {
   font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-weight: 700;
@@ -5521,27 +5528,28 @@ p + .module-723 {
   line-height: 16px;
   color: #FFFFFF;
   padding: 6px 12px;
-  border-radius: 14px;
+  border-radius: 32px;
   background-color: #6698C9;
   margin-left: 12px;
+  margin-top: 5px;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
-/* line 69, ../scss/modules/_module-724.scss */
+/* line 78, ../scss/modules/_module-724.scss */
 .module-724-item.active .module-724-item-link > .code,
 .module-724-item-link:hover > .code {
   background-color: #0054A5;
 }
 
-/* line 74, ../scss/modules/_module-724.scss */
+/* line 83, ../scss/modules/_module-724.scss */
 .module-724-item-content {
   padding: 0px 30px 0px 32px;
 }
 
-/* line 77, ../scss/modules/_module-724.scss */
+/* line 86, ../scss/modules/_module-724.scss */
 .module-724-item.active .module-724-item-content {
   padding: 30px 30px 30px 32px;
   background-color: #FFFFFF;
@@ -5557,7 +5565,7 @@ p + .module-723 {
   box-shadow: 0px 3px 6px -1px #E6E9ED;
 }
 
-/* line 87, ../scss/modules/_module-724.scss */
+/* line 96, ../scss/modules/_module-724.scss */
 .module-724-item-content > h2 {
   font-size: 24px;
   line-height: 32px;
@@ -5565,7 +5573,7 @@ p + .module-723 {
   font-weight: 600;
 }
 
-/* line 93, ../scss/modules/_module-724.scss */
+/* line 102, ../scss/modules/_module-724.scss */
 .module-724-item-content > p {
   font-size: 16px;
   line-height: 24px;
@@ -5573,19 +5581,19 @@ p + .module-723 {
   color: #282E34;
 }
 
-/* line 99, ../scss/modules/_module-724.scss */
+/* line 108, ../scss/modules/_module-724.scss */
 .module-724-item-content > p:last-child {
   margin-bottom: 0px;
 }
 
-/* line 102, ../scss/modules/_module-724.scss */
+/* line 111, ../scss/modules/_module-724.scss */
 .module-724-item-content > ul {
   list-style-type: circle;
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 107, ../scss/modules/_module-724.scss */
+/* line 116, ../scss/modules/_module-724.scss */
 .module-724-item-content > ul > li {
   margin-bottom: 12px;
 }
