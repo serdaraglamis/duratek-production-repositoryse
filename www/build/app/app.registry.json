@@ -2,8 +2,8 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "core": "app.tqe7n4xb.js",
-  "corePolyfilled": "app.3sfnrybm.js",
+  "core": "app.uvowznky.js",
+  "corePolyfilled": "app.dstmc7wg.js",
   "components": {
     "career-component": {
       "bundleIds": {
@@ -152,7 +152,7 @@
     },
     "urunler-page-new": {
       "bundleIds": {
-        "$": "dpsofzhn"
+        "$": "pxrw4kml"
       }
     }
   }
