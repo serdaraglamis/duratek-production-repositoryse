@@ -281,11 +281,10 @@ var _this = this;
  * SSR Attribute Names
  */ var SSR_VNODE_ID = 'ssrv';
 
-var SSR_CHILD_ID = 'ssrc';
-
 /**
  * Default style mode id
- */ var DEFAULT_STYLE_MODE = '$';
+ */
+var DEFAULT_STYLE_MODE = '$';
 
 /**
  * Reusable empty obj/array
@@ -453,14 +452,14 @@ var createDomApi = function(App, win, doc) {
       if ('window' === referenceName) return win;
       return elm;
     },
-    $addEventListener: function(assignerElm, eventName, listenerCallback, assignerId, useCapture, usePassive, attachTo, eventListenerOpts, splt, assignersEventName) {
+    $addEventListener: function(assignerElm, eventName, listenerCallback, useCapture, usePassive, attachTo, eventListenerOpts, splt, assignersEventName) {
       // remember the original name before we possibly change it
       var attachToElm = assignerElm;
       var eventListener = listenerCallback;
       // get the existing unregister listeners for
       // this element from the unregister listeners weakmap
             var assignersUnregListeners = unregisterListenerFns.get(assignerElm);
-      assignersEventName = eventName + assignerId, assignersUnregListeners && assignersUnregListeners[assignersEventName] && 
+      assignersEventName = eventName, assignersUnregListeners && assignersUnregListeners[assignersEventName] && 
       // removed any existing listeners for this event for the assigner element
       // this element already has this listener, so let's unregister it now
       assignersUnregListeners[assignersEventName](), 'object' === typeof attachTo && (
@@ -483,13 +482,13 @@ var createDomApi = function(App, win, doc) {
         assignersUnregListeners[assignersEventName] = null;
       });
     },
-    $removeEventListener: function(elm, eventName, assignerId, assignersUnregListeners) {
+    $removeEventListener: function(elm, eventName, assignersUnregListeners) {
       // get the unregister listener functions for this element
       (assignersUnregListeners = unregisterListenerFns.get(elm)) && (
       // this element has unregister listeners
       eventName ? 
       // passed in one specific event name to remove
-      assignersUnregListeners[eventName + assignerId] && assignersUnregListeners[eventName + assignerId]() : 
+      assignersUnregListeners[eventName] && assignersUnregListeners[eventName]() : 
       // remove all event listeners
       Object.keys(assignersUnregListeners).forEach(function(assignersEventName) {
         assignersUnregListeners[assignersEventName] && assignersUnregListeners[assignersEventName]();
@@ -567,9 +566,9 @@ var setAccessor = function(plt, elm, memberName, oldValue, newValue, isSvg, isHo
   memberName = toLowerCase(memberName) in elm ? toLowerCase(memberName.substring(2)) : toLowerCase(memberName[2]) + memberName.substring(3), 
   newValue ? newValue !== oldValue && 
   // add listener
-  plt.domApi.$addEventListener(elm, memberName, newValue, 0) : 
+  plt.domApi.$addEventListener(elm, memberName, newValue) : 
   // remove listener
-  plt.domApi.$removeEventListener(elm, memberName, 0); else if (oldValue !== newValue) {
+  plt.domApi.$removeEventListener(elm, memberName); else if (oldValue !== newValue) {
     var oldList_1 = parseClassList(oldValue);
     var newList_1 = parseClassList(newValue);
     // remove classes in oldList, not included in newList
@@ -906,48 +905,6 @@ var callNodeRefs = function(vNode, isDestroy) {
   }));
 };
 
-function addChildSsrVNodes(domApi, node, parentVNode, ssrVNodeId, checkNestedElements) {
-  var nodeType = domApi.$nodeType(node);
-  var previousComment;
-  var childVNodeId, childVNodeSplt, childVNode;
-  if (checkNestedElements && 1 /* ElementNode */ === nodeType) {
-    childVNodeId = domApi.$getAttribute(node, SSR_CHILD_ID), childVNodeId && (
-    // split the start comment's data with a period
-    childVNodeSplt = childVNodeId.split('.'), 
-    // ensure this this element is a child element of the ssr vnode
-    childVNodeSplt[0] === ssrVNodeId && (
-    // cool, this element is a child to the parent vnode
-    childVNode = {}, childVNode.vtag = domApi.$tagName(childVNode.elm = node), 
-    // this is a new child vnode
-    // so ensure its parent vnode has the vchildren array
-    parentVNode.vchildren || (parentVNode.vchildren = []), 
-    // add our child vnode to a specific index of the vnode's children
-    parentVNode.vchildren[childVNodeSplt[1]] = childVNode, 
-    // this is now the new parent vnode for all the next child checks
-    parentVNode = childVNode, 
-    // if there's a trailing period, then it means there aren't any
-    // more nested elements, but maybe nested text nodes
-    // either way, don't keep walking down the tree after this next call
-    checkNestedElements = '' !== childVNodeSplt[2]));
-    // keep drilling down through the elements
-    for (var i = 0; i < node.childNodes.length; i++) addChildSsrVNodes(domApi, node.childNodes[i], parentVNode, ssrVNodeId, checkNestedElements);
-  } else 3 /* TextNode */ === nodeType && (previousComment = node.previousSibling) && 8 /* CommentNode */ === domApi.$nodeType(previousComment) && (
-  // split the start comment's data with a period
-  childVNodeSplt = domApi.$getTextContent(previousComment).split('.'), 
-  // ensure this is an ssr text node start comment
-  // which should start with an "s" and delimited by periods
-  's' === childVNodeSplt[0] && childVNodeSplt[1] === ssrVNodeId && (
-  // cool, this is a text node and it's got a start comment
-  childVNode = {
-    vtext: domApi.$getTextContent(node)
-  }, childVNode.elm = node, 
-  // this is a new child vnode
-  // so ensure its parent vnode has the vchildren array
-  parentVNode.vchildren || (parentVNode.vchildren = []), 
-  // add our child vnode to a specific index of the vnode's children
-  parentVNode.vchildren[childVNodeSplt[2]] = childVNode));
-}
-
 var createQueueClient = function(App, win) {
   var congestion_1 = 0;
   var rafPending_1 = false;
@@ -1039,7 +996,7 @@ function initElementListeners(plt, elm) {
         // when the instance is ready
         val = plt.queuedEvents.get(elm) || [], val.push(eventMethodName, ev), plt.queuedEvents.set(elm, val));
       };
-    }(plt, elm, listenMeta.eventMethodName), 1, listenMeta.eventCapture, listenMeta.eventPassive);
+    }(plt, elm, listenMeta.eventMethodName), listenMeta.eventCapture, listenMeta.eventPassive);
   });
 }
 
@@ -2623,17 +2580,7 @@ needShim = true), needShim && (customStyle = new CustomStyle(w, d)), function cr
         namespace: namespace
       }
     });
-  }, 
-  // if the HTML was generated from prerendering
-  // then let's walk the tree and generate vnodes out of the data
-  function createVNodesFromSsr(plt, domApi, rootElm) {
-    var allSsrElms = rootElm.querySelectorAll('[' + SSR_VNODE_ID + ']');
-    var ilen = allSsrElms.length;
-    var elm, ssrVNodeId, ssrVNode, i, j, jlen;
-    if (ilen > 0) for (plt.isCmpReady.set(rootElm, true), i = 0; i < ilen; i++) for (elm = allSsrElms[i], 
-    ssrVNodeId = domApi.$getAttribute(elm, SSR_VNODE_ID), ssrVNode = {}, ssrVNode.vtag = domApi.$tagName(ssrVNode.elm = elm), 
-    plt.vnodeMap.set(elm, ssrVNode), j = 0, jlen = elm.childNodes.length; j < jlen; j++) addChildSsrVNodes(domApi, elm.childNodes[j], ssrVNode, ssrVNodeId, true);
-  }(plt, domApi, rootElm), App.loadBundle = loadBundle;
+  }, App.loadBundle = loadBundle;
   var requestBundleQueue = [];
   function requestComponentBundle(bundleId, hmrVersionId) {
     var url = resourcesUrl + bundleId + '.es5.entry.js';

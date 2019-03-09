@@ -1,6 +1,6 @@
 const h = window.App.h;
 
-import { b as getFromPath, c as updateFromPath } from './chunk-cc9391f5.js';
+import { b as getFromPath, c as updateFromPath } from './chunk-89a24860.js';
 
 class appTopMenu {
     constructor() {

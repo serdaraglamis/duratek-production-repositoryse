@@ -1,4 +1,4 @@
-App.loadBundle('app-static-languages', ['exports', './chunk-f83566b1.js', './chunk-0d315693.js', './chunk-aa48cfa8.js'], function (exports, __chunk_1, __chunk_2, __chunk_4) {
+App.loadBundle('app-static-languages', ['exports', './chunk-3e396618.js', './chunk-0d315693.js', './chunk-aa48cfa8.js'], function (exports, __chunk_1, __chunk_2, __chunk_4) {
     var h = window.App.h;
     var appStaticLanguages = /** @class */ (function () {
         function appStaticLanguages() {

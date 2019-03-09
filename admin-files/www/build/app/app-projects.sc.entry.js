@@ -1,6 +1,6 @@
 const h = window.App.h;
 
-import { b as getFromPath, c as updateFromPath, d as deleteFromPath } from './chunk-cc9391f5.js';
+import { b as getFromPath, c as updateFromPath, d as deleteFromPath } from './chunk-89a24860.js';
 
 class appProjects {
     constructor() {

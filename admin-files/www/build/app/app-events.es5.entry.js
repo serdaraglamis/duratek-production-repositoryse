@@ -1,4 +1,4 @@
-App.loadBundle('app-events', ['exports', './chunk-f83566b1.js'], function (exports, __chunk_1) {
+App.loadBundle('app-events', ['exports', './chunk-3e396618.js'], function (exports, __chunk_1) {
     var h = window.App.h;
     var appEvents = /** @class */ (function () {
         function appEvents() {

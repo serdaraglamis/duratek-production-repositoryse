@@ -10,8 +10,8 @@ var TypeKeys;
     TypeKeys["SET_PAGE_DATA"] = "SET_PAGE_DATA";
 })(TypeKeys || (TypeKeys = {}));
 
-const apiUrl = 'http://demo.duratek.com.tr/api/';
-window['apiBase'] = 'http://demo.duratek.com.tr/';
+const apiUrl = 'http://www.duratek.com.tr/api/';
+window['apiBase'] = 'http://www.duratek.com.tr/';
 const appSetLogin = (status) => async (dispatch, _getState) => {
     return dispatch({
         type: TypeKeys.APP_SET_LOGIN_STATUS,

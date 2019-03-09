@@ -33,7 +33,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-App.loadBundle('app-news', ['exports', './chunk-f83566b1.js'], function (exports, __chunk_1) {
+App.loadBundle('app-news', ['exports', './chunk-3e396618.js'], function (exports, __chunk_1) {
     var h = window.App.h;
     var appNews = /** @class */ (function () {
         function appNews() {

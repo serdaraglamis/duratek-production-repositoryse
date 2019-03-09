@@ -1,8 +1,8 @@
 const h = window.App.h;
 
-import { b as getFromPath, c as updateFromPath } from './chunk-cc9391f5.js';
+import { b as getFromPath, c as updateFromPath } from './chunk-89a24860.js';
 import './chunk-84ac4f31.js';
-import { a as Sortable$1 } from './chunk-a096565e.js';
+import { a as Sortable$1 } from './chunk-70a5aa93.js';
 import { a as cloneDeep } from './chunk-597c4635.js';
 
 class appLocationDetail {

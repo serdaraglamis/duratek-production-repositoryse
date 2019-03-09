@@ -33,7 +33,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-App.loadBundle('chunk-f83566b1.js', ['exports'], function (exports) {
+App.loadBundle('chunk-3e396618.js', ['exports'], function (exports) {
     var _this = this;
     var h = window.App.h;
     (function (TypeKeys) {
@@ -44,8 +44,8 @@ App.loadBundle('chunk-f83566b1.js', ['exports'], function (exports) {
         TypeKeys["APP_SET_LOGIN_STATUS"] = "APP_SET_LOGIN_STATUS";
         TypeKeys["SET_PAGE_DATA"] = "SET_PAGE_DATA";
     })(exports.TypeKeys || (exports.TypeKeys = {}));
-    var apiUrl = 'http://demo.duratek.com.tr/api/';
-    window['apiBase'] = 'http://demo.duratek.com.tr/';
+    var apiUrl = 'http://www.duratek.com.tr/api/';
+    window['apiBase'] = 'http://www.duratek.com.tr/';
     var appSetLogin = function (status) { return function (dispatch, _getState) { return __awaiter(_this, void 0, void 0, function () {
         return __generator(this, function (_a) {
             return [2 /*return*/, dispatch({
