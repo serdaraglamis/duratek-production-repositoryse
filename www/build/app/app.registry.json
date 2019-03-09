@@ -2,8 +2,8 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "core": "app.c4rsl5hz.js",
-  "corePolyfilled": "app.p9kf6hen.js",
+  "core": "app.utei8umz.js",
+  "corePolyfilled": "app.kl3z9eg1.js",
   "components": {
     "career-component": {
       "bundleIds": {
@@ -12,17 +12,17 @@
     },
     "cerez-component": {
       "bundleIds": {
-        "$": "3rwdb92i"
+        "$": "vklynj37"
       }
     },
     "duyuru-component": {
       "bundleIds": {
-        "$": "3rwdb92i"
+        "$": "vklynj37"
       }
     },
     "iletisim-statik": {
       "bundleIds": {
-        "$": "gbumztse"
+        "$": "2iisnxac"
       }
     },
     "module-10": {
@@ -107,7 +107,7 @@
     },
     "module-720": {
       "bundleIds": {
-        "$": "8huawcgq"
+        "$": "1gagqadn"
       }
     },
     "module-800": {
@@ -132,7 +132,7 @@
     },
     "my-app": {
       "bundleIds": {
-        "$": "3rwdb92i"
+        "$": "vklynj37"
       }
     },
     "sertifika-slayt": {
