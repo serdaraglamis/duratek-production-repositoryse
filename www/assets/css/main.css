@@ -4208,6 +4208,7 @@ p + .module-40 {
 
 /* line 3, ../scss/modules/_module-510.scss */
 .module-510 {
+  display: none;
   padding-top: 96px;
   padding-bottom: 96px;
 }
