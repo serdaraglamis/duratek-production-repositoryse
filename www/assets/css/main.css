@@ -4952,7 +4952,8 @@ p + .module-40 {
 /* line 61, ../scss/modules/_module-670.scss */
 .module-670-body-2 {
   padding: 32px 0px;
-  display: block;
+  /*display: block;*/
+  display: none;
 }
 
 /* line 66, ../scss/modules/_module-670.scss */
