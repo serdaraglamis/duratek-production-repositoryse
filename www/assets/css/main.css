@@ -4253,6 +4253,7 @@ p + .module-40 {
   max-width: 1300px;
   height: auto;
   margin-bottom: 96px;
+  padding-top: 64px;
   margin-left: auto;
   margin-right: auto;
   height: 600px;
@@ -5651,6 +5652,9 @@ p + .module-723 {
 .module-730-body-item {
   display: block;
   margin-bottom: 60px;
+}
+.module-730-body-item > ..module-730-body-item {
+  display: none;
 }
 
 /* line 44, ../scss/modules/_module-730.scss */
