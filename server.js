@@ -1,6 +1,6 @@
 const express = require('express');
 var spa = require('express-spa');
-const http = require('http');
+const https = require('https);
 const cors = require('cors')
 require('dotenv').config()
 const port         = process.env.PORT || 8000
@@ -42,4 +42,4 @@ app.use('/', routes)
 
 app.use(spa(__dirname + '/www/index.html'))
 
-http.createServer(app).listen(port);
+https.createServer(app).listen(port);
