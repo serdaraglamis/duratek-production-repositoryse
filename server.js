@@ -1,6 +1,6 @@
 const express = require('express');
 var spa = require('express-spa');
-const https = require('https);
+const https = require('http');
 const cors = require('cors')
 require('dotenv').config()
 const port         = process.env.PORT || 8000
