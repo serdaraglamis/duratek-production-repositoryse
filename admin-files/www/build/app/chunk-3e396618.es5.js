@@ -44,7 +44,7 @@ App.loadBundle('chunk-3e396618.js', ['exports'], function (exports) {
         TypeKeys["APP_SET_LOGIN_STATUS"] = "APP_SET_LOGIN_STATUS";
         TypeKeys["SET_PAGE_DATA"] = "SET_PAGE_DATA";
     })(exports.TypeKeys || (exports.TypeKeys = {}));
-    var apiUrl = 'http://www.duratek.com.tr/api/';
+    var apiUrl = 'https://serene-inlet-55649.herokuapp.com/api/';
     window['apiBase'] = 'http://www.duratek.com.tr/';
     var appSetLogin = function (status) { return function (dispatch, _getState) { return __awaiter(_this, void 0, void 0, function () {
         return __generator(this, function (_a) {
